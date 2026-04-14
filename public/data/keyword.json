@@ -1,0 +1,794 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "jJu2tyGwygLzWCMjJqi7Heb6Rjw",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 629537,
+    "resultsPerPage": 23
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-Vnq4EO0DFn_RQqmn9krYio8p6A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DA28XQY7loE"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-11T21:00:17Z",
+        "channelId": "UCRSkF5KLc7vgxdSUvL6aJbg",
+        "title": "지구촌 가장 역사적인 서핑의 순간",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DA28XQY7loE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DA28XQY7loE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DA28XQY7loE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "지구뉴스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-05-11T21:00:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_JoBfuUdVdYkjBj6-fGlMNHyr9E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "RxSAm0DcfQw"
+      },
+      "snippet": {
+        "publishedAt": "2024-03-26T08:00:04Z",
+        "channelId": "UC5ZqaJ9klJrwgsKjYW42JtA",
+        "title": "한순간에 의사가 하반신마비가 된 이유",
+        "description": "서핑 #의사 #여행.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RxSAm0DcfQw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RxSAm0DcfQw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RxSAm0DcfQw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "원샷한솔OneshotHansol",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-03-26T08:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "h97Et07Sr8Wm4XZH3Ftj12oJ5GE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "wrt3RrmtNmU"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-23T02:10:05Z",
+        "channelId": "UCK4Ilrc3h-HV3WoXdqpR5wA",
+        "title": "서퍼들만 볼 수 있는 절정의 황홀경 #shorts",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wrt3RrmtNmU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wrt3RrmtNmU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wrt3RrmtNmU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "신기한 서핑이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-23T02:10:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "BG72dIM2Iq9MRdcYGYY9CgUzNmo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tye9fuSipAs"
+      },
+      "snippet": {
+        "publishedAt": "2020-09-24T11:00:13Z",
+        "channelId": "UC5su-1g7ppiix1YujBHzm8A",
+        "title": "[지창욱의 폼생폼사] 어서와 창욱 Ep.3 서핑의 세계로 (SUB)",
+        "description": "본 영상은 유료 광고를 포함하고 있습니다 / 스노우피크 * 본 영상은 사회적 거리두기 지침을 준수하여 촬영이 진행되었습니다 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tye9fuSipAs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tye9fuSipAs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tye9fuSipAs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "지창욱.Jichangwook",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-09-24T11:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "XLFp6zq1SzzdBNSAG5xaLdMKpwk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IiO2YG37C5o"
+      },
+      "snippet": {
+        "publishedAt": "2026-03-16T10:00:34Z",
+        "channelId": "UC6le2DAXq9bLVVYl6nenbEg",
+        "title": "우기의 롬복에서 살아남아라..! 비오는 날 서핑 투어 🏄🏻‍♀️🌊 | 엄정화 여행Vlog (ENG)",
+        "description": "안녕탱탱이들. 작년부터 약속한 롬복으로 가는 여행, 드디어 서핑 멤버들과 다녀왔는데 우기라서 쉽지않았지만, 이 행복 함께 느껴보고 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IiO2YG37C5o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IiO2YG37C5o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IiO2YG37C5o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Umaizing 엄정화TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-03-16T10:00:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "h3TYmWmmWvL_1atwZxTOZZ6DskA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lk34W3VwVqk"
+      },
+      "snippet": {
+        "publishedAt": "2024-09-05T06:50:59Z",
+        "channelId": "UCKeG6jlNCUaJZ1XoYyzpJbA",
+        "title": "화제였던 유세윤 서핑, 국가대표팀 감독 송민의 평가는? #송민해설 #서핑 #유세윤",
+        "description": "globaldirectnews 더 다양한 글로벌 소식을 원한다면   https://globaldirectnews.com/ ✔️Instagram : instagram.com/gdn_clip/ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lk34W3VwVqk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lk34W3VwVqk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lk34W3VwVqk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "글로벌다이렉트뉴스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-09-05T06:50:59Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3LKjd8n4vE_mvNvDckRqBy14mX4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NDY1jZ0V2PU"
+      },
+      "snippet": {
+        "publishedAt": "2024-07-19T10:00:33Z",
+        "channelId": "UCFCtZJTuJhE18k8IXwmXTYQ",
+        "title": "서핑의 성지! 파도 맛집 인도네시아 발리에서 서퍼들끼리 지켜야할 파도 예절이 있다는데? ┃세계테마기행┃#골라듄다큐",
+        "description": "이 영상은 2022년 12월 19일에 방송된 ＜세계테마기행 - 파도가 좋아서, 발리•롬복 1부 인생 사진은 여기! 발리에서＞의 일부입니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NDY1jZ0V2PU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NDY1jZ0V2PU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NDY1jZ0V2PU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "EBSDocumentary (EBS 다큐)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-07-19T10:00:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "dVYrukYOEdT301wo5HFCFLi7y_4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "eyAWZLDr5uY"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-09T08:00:30Z",
+        "channelId": "UCOsm6HYBtMYggxew-phqklA",
+        "title": "한 파도에서 배럴 3번 타기 #서핑",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eyAWZLDr5uY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eyAWZLDr5uY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eyAWZLDr5uY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "득템숍",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-09T08:00:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xcYyc4STi-NKg_P8svGFVnFQkK4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NoI10t1yks0"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-07T04:14:13Z",
+        "channelId": "UC4N-y2l7k_aU7fBZ4kzKhmA",
+        "title": "서핑 대형사고 아이린 #shorts",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NoI10t1yks0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NoI10t1yks0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NoI10t1yks0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "대출왕",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-07T04:14:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vcH_pmw4A-EeBiCx9X8Zk6shHfg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "teWV4DeA3A0"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-02T08:38:20Z",
+        "channelId": "UC5duyhoJ4mXbZff6elnmvTw",
+        "title": "서핑하러 떠나는 호주트립 (1) 🇦🇺 | 산책하다 캥거루 보는 일상 🦘🐨 | 트레킹 | 주말마켓 | 누사에서 골드코스트 바이런베이까지 vlog",
+        "description": "Instagram : https://www.instagram.com/woorihh ▫️ E-mail : ourdays36@gmail.com 두리들 안녕하세요 ㅎㅎ 벌써 2025년의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/teWV4DeA3A0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/teWV4DeA3A0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/teWV4DeA3A0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "하누",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-02T08:38:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ImkHG11UvTEBmIWg2YnV75luG-U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "C_DcH3dNIOk"
+      },
+      "snippet": {
+        "publishedAt": "2025-07-31T10:15:02Z",
+        "channelId": "UCzch5yPRv4y0wGRlFti0YyQ",
+        "title": "전동 서핑 보드 혼자타면 위험한 이유",
+        "description": "이 영상은 전동 서핑보드 사용 중 발생할 수 있는 안전 사고 위험과 기기 구조 이해를 돕기 위한 정보 전달 콘텐츠입니다. 영상에 등장 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/C_DcH3dNIOk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/C_DcH3dNIOk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/C_DcH3dNIOk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "삽지식",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-07-31T10:15:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "yMhT3cVOVdg5-9Nm_xNm8G09hng",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MSb-wMzdKNU"
+      },
+      "snippet": {
+        "publishedAt": "2025-09-21T02:35:19Z",
+        "channelId": "UCHCdFsm2kFkEsHN5s0ZmrJA",
+        "title": "서퍼들이 서핑보드 때를 벗겨내는 이유",
+        "description": "미국에서 서핑을 즐기는 사람들에게 서핑보드 관리는 필수입니다. 서핑보드는 바닷물, 햇빛, 모래에 항상 노출되기 때문에 정기적인 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MSb-wMzdKNU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MSb-wMzdKNU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MSb-wMzdKNU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "정보온",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-09-21T02:35:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "VehayX8yP3eYfQPYQ3ib5Y4NGXI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "41F07xZaW5g"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-12T08:00:04Z",
+        "channelId": "UCOsm6HYBtMYggxew-phqklA",
+        "title": "5초만에 환상적인 배럴을 타는법 #스킴보드",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/41F07xZaW5g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/41F07xZaW5g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/41F07xZaW5g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "득템숍",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-12T08:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hyGCNNkC3kMHpc2zOr_XafAUBWw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yaxIq8f9jKo"
+      },
+      "snippet": {
+        "publishedAt": "2024-05-02T00:26:58Z",
+        "channelId": "UClS1Q-gxyOMC2FHaFKBsg8g",
+        "title": "파도랑 박자가 맞으면 얼마나 기분이 좋게요?! #서핑 #서핑배우기 #서핑강습 #서핑초보 #테이크오프",
+        "description": "서핑 테이크오프 연습하는 방법.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yaxIq8f9jKo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yaxIq8f9jKo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yaxIq8f9jKo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KEEP SURFING 킵서핑 ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-05-02T00:26:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tSh__piDI3edGVOIq5LMtmPiUJ0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4zW2CR0AKjg"
+      },
+      "snippet": {
+        "publishedAt": "2025-09-14T03:00:05Z",
+        "channelId": "UCMA3UencIA-B0E-Frte4sNQ",
+        "title": "서핑 고인물 수준 ㄷㄷ",
+        "description": "서핑 #바다 #여름.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4zW2CR0AKjg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4zW2CR0AKjg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4zW2CR0AKjg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "얼루룩덜루룩",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-09-14T03:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rte_0ZpkR5SvAFEqqe9cdyr7efc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "RviwyHEcER8"
+      },
+      "snippet": {
+        "publishedAt": "2025-02-18T06:28:00Z",
+        "channelId": "UCbqVTSQRdtqVpfVZhJo67Zg",
+        "title": "서핑의 꽃, 배럴 #shorts #surfing #barrel,",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RviwyHEcER8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RviwyHEcER8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RviwyHEcER8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "보드바이브",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-02-18T06:28:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Nkss0EiMnNaHR5iYJE5QieQW_fU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "As86BoSziQM"
+      },
+      "snippet": {
+        "publishedAt": "2025-07-10T03:40:00Z",
+        "channelId": "UC2JnNjvAAjruT1r_Z5ZwQjg",
+        "title": "서핑강사가 강습내내 같이 파도를 타는 이유",
+        "description": "이 영상은 AI TTS 음성과 디지털 제작 방식을 활용하되, 창작자의 해석과 편집을 바탕으로 직접 커스터마이징한 창작 콘텐츠입니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/As86BoSziQM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/As86BoSziQM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/As86BoSziQM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "이츠쇼츠",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-07-10T03:40:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zDPGe104g-ikHGBVxqbE2Id-BhA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7-dpDy7odY4"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-12T11:45:00Z",
+        "channelId": "UCt3s1Buf5LsQIQJ82awhbJA",
+        "title": "서퍼들이 파도에  열광하는 이유",
+        "description": "서퍼들이 파도에 열광하는 이유 #서핑 #서퍼 #suffer.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7-dpDy7odY4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7-dpDy7odY4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7-dpDy7odY4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "파도중독자들",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-12T11:45:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "jl7_iRUJh99ChuU6LpnstSTfV3w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4ZMO_-iasaQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-16T02:15:00Z",
+        "channelId": "UCK4Ilrc3h-HV3WoXdqpR5wA",
+        "title": "파도 위를 나는 서핑 어른이들의 장난감ㄷㄷ #shorts",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4ZMO_-iasaQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4ZMO_-iasaQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4ZMO_-iasaQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "신기한 서핑이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-16T02:15:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ixJvyRTuUos839Xfydh1_9RkDik",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gyoSYywsL10"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-23T07:00:15Z",
+        "channelId": "UCDiC99r8eSm_UyjdHESERwg",
+        "title": "좋은파도에서 아무것도 못하기🌊🌊🌊 #발리 #발리서핑 #발리이민 #발리여행",
+        "description": "발리에서 파도타기 #발리 #발리서핑 #서핑 #발리이민 #발리여행.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gyoSYywsL10/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gyoSYywsL10/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gyoSYywsL10/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "발리왕모글리",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-23T07:00:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mXQcYF7OVBF6JkG_BTPyY75X-V4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Cp2BUS9Y0gE"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-15T08:00:12Z",
+        "channelId": "UCzweBsv4ObWVY2KjeKuQdNA",
+        "title": "서핑의 꽃 “배럴”#shorts",
+        "description": "서핑중에 파도가 말리는 현상 배럴에 대한 정보 영상입니다 #배럴.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Cp2BUS9Y0gE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Cp2BUS9Y0gE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Cp2BUS9Y0gE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "지식홀릭",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-08-15T08:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "C1vFwkDigkp6c9BBKBxXYxGh_WI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "U2pct9lHvw8"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-15T07:30:30Z",
+        "channelId": "UCXZx953K0FgkT3H2FaFAcew",
+        "title": "슈뻘맨 유튜브 그만하고 서핑선수 하겠습니다.. 뻘둥이들 안녕..",
+        "description": "오랜만에 돌아온 슈뻘맨과 운동찾기!! 오늘은 무슨 운동!?! 바로 실내스포츠중 제일 시원하다는 실내서핑..!!! 과연 슈뻘맨은 실내 서핑을 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/U2pct9lHvw8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/U2pct9lHvw8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/U2pct9lHvw8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "슈뻘맨 [슈퍼 뻘짓 도전기]",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-05-15T07:30:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0SpAIYxOaRB2rRECcfbvRetRxv4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BFw7g1r9QtE"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-30T10:09:34Z",
+        "channelId": "UCsYawrVV5k_AbW3o0GXbHGg",
+        "title": "15m 빅웨이브 파도 타고 바닷속 바닥 찍기ㄷㄷ",
+        "description": "빅웨이브 파도가 몰아칠때 20~50피트 높이에서 바닥까지 내리칠 수 있다 함;;",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BFw7g1r9QtE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BFw7g1r9QtE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BFw7g1r9QtE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "밈튜브",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-30T10:09:34Z"
+      }
+    }
+  ]
+}
