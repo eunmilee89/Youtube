@@ -1,793 +1,861 @@
 {
   "kind": "youtube#searchListResponse",
-  "etag": "jJu2tyGwygLzWCMjJqi7Heb6Rjw",
+  "etag": "CAZT5kjeSe-eNluXzFYS0H-m2xI",
   "nextPageToken": "CBkQAA",
   "regionCode": "KR",
   "pageInfo": {
-    "totalResults": 629537,
-    "resultsPerPage": 23
+    "totalResults": 53028,
+    "resultsPerPage": 25
   },
   "items": [
     {
       "kind": "youtube#searchResult",
-      "etag": "-Vnq4EO0DFn_RQqmn9krYio8p6A",
+      "etag": "q9kGXYrPTRvSYMv7AhTBOWDD8bA",
       "id": {
         "kind": "youtube#video",
-        "videoId": "DA28XQY7loE"
+        "videoId": "Hv1wQ6nlpNE"
       },
       "snippet": {
-        "publishedAt": "2025-05-11T21:00:17Z",
-        "channelId": "UCRSkF5KLc7vgxdSUvL6aJbg",
-        "title": "지구촌 가장 역사적인 서핑의 순간",
+        "publishedAt": "2024-09-01T10:25:18Z",
+        "channelId": "UCS_hnpJLQTvBkqALgapi_4g",
+        "title": "RESCENE (리센느) - LOVE ATTACK @인기가요 inkigayo 20240901",
+        "description": "RESCENE - LOVE ATTACK #SBSInkigayo_EP1238 리센느 - LOVE ATTACK #RESCENE #LOVEATTACK SBS #인기가요 X #디 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Hv1wQ6nlpNE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Hv1wQ6nlpNE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Hv1wQ6nlpNE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBSKPOP X INKIGAYO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-09-01T10:25:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9a2qejztXE0ox9nei8b70nkPD98",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "LqRbRmZ4xKE"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-02T14:42:02Z",
+        "channelId": "UCfLhUg03h0u5GYhCeUJYGPg",
+        "title": "[리센느] 본능적 방어",
         "description": "",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/DA28XQY7loE/default.jpg",
+            "url": "https://i.ytimg.com/vi/LqRbRmZ4xKE/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/DA28XQY7loE/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/LqRbRmZ4xKE/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/DA28XQY7loE/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/LqRbRmZ4xKE/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "지구뉴스",
+        "channelTitle": "IDM CAM",
         "liveBroadcastContent": "none",
-        "publishTime": "2025-05-11T21:00:17Z"
+        "publishTime": "2026-06-02T14:42:02Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "_JoBfuUdVdYkjBj6-fGlMNHyr9E",
+      "etag": "aRiT_Im-kmyCe5WVj_YZrSbgm4I",
       "id": {
         "kind": "youtube#video",
-        "videoId": "RxSAm0DcfQw"
+        "videoId": "lwycbWG8gJI"
       },
       "snippet": {
-        "publishedAt": "2024-03-26T08:00:04Z",
-        "channelId": "UC5ZqaJ9klJrwgsKjYW42JtA",
-        "title": "한순간에 의사가 하반신마비가 된 이유",
-        "description": "서핑 #의사 #여행.",
+        "publishedAt": "2026-06-02T12:00:11Z",
+        "channelId": "UCsRIHt5FkbGc6cQtCxt-ufA",
+        "title": "[#유퀴즈온더블럭] 윤성원 야-호★ 리센느 원이 유튜브 PD 윤성원 자기님이 영상을 연출하고 기획하는 법✍️",
+        "description": "티빙에서 스트리밍 : https://tving.onelink.me/xHqC/9zc1k980 #유퀴즈온더블럭 #유퀴즈 #유재석 매주 수요일 저녁 8시 45분 tvN에서!",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/RxSAm0DcfQw/default.jpg",
+            "url": "https://i.ytimg.com/vi/lwycbWG8gJI/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/RxSAm0DcfQw/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/lwycbWG8gJI/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/RxSAm0DcfQw/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/lwycbWG8gJI/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "원샷한솔OneshotHansol",
+        "channelTitle": "tvN D ENT",
         "liveBroadcastContent": "none",
-        "publishTime": "2024-03-26T08:00:04Z"
+        "publishTime": "2026-06-02T12:00:11Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "h97Et07Sr8Wm4XZH3Ftj12oJ5GE",
+      "etag": "_9Lb1sQYbe_rkuS-ogQ1xYbs_Ck",
       "id": {
         "kind": "youtube#video",
-        "videoId": "wrt3RrmtNmU"
+        "videoId": "dS9MxU6USYU"
       },
       "snippet": {
-        "publishedAt": "2023-01-23T02:10:05Z",
-        "channelId": "UCK4Ilrc3h-HV3WoXdqpR5wA",
-        "title": "서퍼들만 볼 수 있는 절정의 황홀경 #shorts",
+        "publishedAt": "2025-09-23T11:01:12Z",
+        "channelId": "UCCkBZG1oQj3ybXm5mWnQ1Pg",
+        "title": "[리센느] 금쪽이 제나",
+        "description": "리센느 #rescene #リセンヌ #리브 #원이 #미나미 #메이 #제나 #치즈냥이 #치즈냥이리브 #데자뷰 #DejaVu #금쪽이 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dS9MxU6USYU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dS9MxU6USYU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dS9MxU6USYU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "치즈냥이리브",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-09-23T11:01:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "WA1-MUpaNP1iys8KNoG7imbvlFg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9Ak8qF-keh8"
+      },
+      "snippet": {
+        "publishedAt": "2026-05-30T08:20:15Z",
+        "channelId": "UCbr855WAFQvAX-An7IcHFXg",
+        "title": "간신히 모았다는 리센느 멤버들",
         "description": "",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/wrt3RrmtNmU/default.jpg",
+            "url": "https://i.ytimg.com/vi/9Ak8qF-keh8/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/wrt3RrmtNmU/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/9Ak8qF-keh8/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/wrt3RrmtNmU/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/9Ak8qF-keh8/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "신기한 서핑이야기",
+        "channelTitle": "뇌전구",
         "liveBroadcastContent": "none",
-        "publishTime": "2023-01-23T02:10:05Z"
+        "publishTime": "2026-05-30T08:20:15Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "BG72dIM2Iq9MRdcYGYY9CgUzNmo",
+      "etag": "mFmBWwhBltsHrVNFMzNGCWtFTzs",
       "id": {
         "kind": "youtube#video",
-        "videoId": "tye9fuSipAs"
+        "videoId": "1PTgmn0oyTk"
       },
       "snippet": {
-        "publishedAt": "2020-09-24T11:00:13Z",
-        "channelId": "UC5su-1g7ppiix1YujBHzm8A",
-        "title": "[지창욱의 폼생폼사] 어서와 창욱 Ep.3 서핑의 세계로 (SUB)",
-        "description": "본 영상은 유료 광고를 포함하고 있습니다 / 스노우피크 * 본 영상은 사회적 거리두기 지침을 준수하여 촬영이 진행되었습니다 ...",
+        "publishedAt": "2026-06-02T10:00:40Z",
+        "channelId": "UCiU7m1-H9FvJnipiKjxqdlw",
+        "title": "[리센느] 느끼한 대표님",
+        "description": "리센느 #아이돌 #걸그룹 #리브 #미나미 #제나 #갸루귀신 #신라공주 #하이브로우 #꾸대표 #꾸꾸꾸 라이브 날짜 및 링크입니다!",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/tye9fuSipAs/default.jpg",
+            "url": "https://i.ytimg.com/vi/1PTgmn0oyTk/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/tye9fuSipAs/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/1PTgmn0oyTk/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/tye9fuSipAs/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/1PTgmn0oyTk/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "지창욱.Jichangwook",
+        "channelTitle": "리센느며들다",
         "liveBroadcastContent": "none",
-        "publishTime": "2020-09-24T11:00:13Z"
+        "publishTime": "2026-06-02T10:00:40Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "XLFp6zq1SzzdBNSAG5xaLdMKpwk",
+      "etag": "qg-Wtjq5tsU02APNLCqL81F9MGM",
       "id": {
         "kind": "youtube#video",
-        "videoId": "IiO2YG37C5o"
+        "videoId": "ANV_4Hoox7k"
       },
       "snippet": {
-        "publishedAt": "2026-03-16T10:00:34Z",
-        "channelId": "UC6le2DAXq9bLVVYl6nenbEg",
-        "title": "우기의 롬복에서 살아남아라..! 비오는 날 서핑 투어 🏄🏻‍♀️🌊 | 엄정화 여행Vlog (ENG)",
-        "description": "안녕탱탱이들. 작년부터 약속한 롬복으로 가는 여행, 드디어 서핑 멤버들과 다녀왔는데 우기라서 쉽지않았지만, 이 행복 함께 느껴보고 ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/IiO2YG37C5o/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/IiO2YG37C5o/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/IiO2YG37C5o/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "Umaizing 엄정화TV",
-        "liveBroadcastContent": "none",
-        "publishTime": "2026-03-16T10:00:34Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "h3TYmWmmWvL_1atwZxTOZZ6DskA",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "lk34W3VwVqk"
-      },
-      "snippet": {
-        "publishedAt": "2024-09-05T06:50:59Z",
-        "channelId": "UCKeG6jlNCUaJZ1XoYyzpJbA",
-        "title": "화제였던 유세윤 서핑, 국가대표팀 감독 송민의 평가는? #송민해설 #서핑 #유세윤",
-        "description": "globaldirectnews 더 다양한 글로벌 소식을 원한다면   https://globaldirectnews.com/ ✔️Instagram : instagram.com/gdn_clip/ ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/lk34W3VwVqk/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/lk34W3VwVqk/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/lk34W3VwVqk/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "글로벌다이렉트뉴스",
-        "liveBroadcastContent": "none",
-        "publishTime": "2024-09-05T06:50:59Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "3LKjd8n4vE_mvNvDckRqBy14mX4",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "NDY1jZ0V2PU"
-      },
-      "snippet": {
-        "publishedAt": "2024-07-19T10:00:33Z",
-        "channelId": "UCFCtZJTuJhE18k8IXwmXTYQ",
-        "title": "서핑의 성지! 파도 맛집 인도네시아 발리에서 서퍼들끼리 지켜야할 파도 예절이 있다는데? ┃세계테마기행┃#골라듄다큐",
-        "description": "이 영상은 2022년 12월 19일에 방송된 ＜세계테마기행 - 파도가 좋아서, 발리•롬복 1부 인생 사진은 여기! 발리에서＞의 일부입니다.",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/NDY1jZ0V2PU/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/NDY1jZ0V2PU/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/NDY1jZ0V2PU/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "EBSDocumentary (EBS 다큐)",
-        "liveBroadcastContent": "none",
-        "publishTime": "2024-07-19T10:00:33Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "dVYrukYOEdT301wo5HFCFLi7y_4",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "eyAWZLDr5uY"
-      },
-      "snippet": {
-        "publishedAt": "2024-01-09T08:00:30Z",
-        "channelId": "UCOsm6HYBtMYggxew-phqklA",
-        "title": "한 파도에서 배럴 3번 타기 #서핑",
+        "publishedAt": "2025-09-14T13:34:03Z",
+        "channelId": "UCU7iEGEPr-LOX0uhlMkymlQ",
+        "title": "케이팝 산업의 무서운 모습 #vocal #singer #리센느 #kpop",
         "description": "",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/eyAWZLDr5uY/default.jpg",
+            "url": "https://i.ytimg.com/vi/ANV_4Hoox7k/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/eyAWZLDr5uY/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/ANV_4Hoox7k/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/eyAWZLDr5uY/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/ANV_4Hoox7k/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "득템숍",
+        "channelTitle": "올잇슈",
         "liveBroadcastContent": "none",
-        "publishTime": "2024-01-09T08:00:30Z"
+        "publishTime": "2025-09-14T13:34:03Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "xcYyc4STi-NKg_P8svGFVnFQkK4",
+      "etag": "Iy4L5Y2im1ah0fJ4zVWkn_BBm4c",
       "id": {
         "kind": "youtube#video",
-        "videoId": "NoI10t1yks0"
+        "videoId": "TVsuVPVh5v8"
       },
       "snippet": {
-        "publishedAt": "2022-07-07T04:14:13Z",
-        "channelId": "UC4N-y2l7k_aU7fBZ4kzKhmA",
-        "title": "서핑 대형사고 아이린 #shorts",
+        "publishedAt": "2026-06-03T00:13:01Z",
+        "channelId": "UCbr855WAFQvAX-An7IcHFXg",
+        "title": "오늘자 터졌다는 리센느 논란",
         "description": "",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/NoI10t1yks0/default.jpg",
+            "url": "https://i.ytimg.com/vi/TVsuVPVh5v8/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/NoI10t1yks0/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/TVsuVPVh5v8/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/NoI10t1yks0/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/TVsuVPVh5v8/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "대출왕",
+        "channelTitle": "뇌전구",
         "liveBroadcastContent": "none",
-        "publishTime": "2022-07-07T04:14:13Z"
+        "publishTime": "2026-06-03T00:13:01Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "vcH_pmw4A-EeBiCx9X8Zk6shHfg",
+      "etag": "IS1cxTGbGoXYM2B8Z2OVJhLM41U",
       "id": {
         "kind": "youtube#video",
-        "videoId": "teWV4DeA3A0"
+        "videoId": "9XttLI0oH0I"
       },
       "snippet": {
-        "publishedAt": "2025-12-02T08:38:20Z",
-        "channelId": "UC5duyhoJ4mXbZff6elnmvTw",
-        "title": "서핑하러 떠나는 호주트립 (1) 🇦🇺 | 산책하다 캥거루 보는 일상 🦘🐨 | 트레킹 | 주말마켓 | 누사에서 골드코스트 바이런베이까지 vlog",
-        "description": "Instagram : https://www.instagram.com/woorihh ▫️ E-mail : ourdays36@gmail.com 두리들 안녕하세요 ㅎㅎ 벌써 2025년의 ...",
+        "publishedAt": "2024-08-27T09:00:06Z",
+        "channelId": "UCtKtCiaWRz-d3EZn2xd1mdA",
+        "title": "RESCENE (리센느) ‘LOVE ATTACK’ Official MV",
+        "description": "RESCENE (리센느) 'LOVE ATTACK' Official MV RESCENE Plus Chat: https://artist.mnetplus.world/main/stg/rescene-official ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/teWV4DeA3A0/default.jpg",
+            "url": "https://i.ytimg.com/vi/9XttLI0oH0I/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/teWV4DeA3A0/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/9XttLI0oH0I/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/teWV4DeA3A0/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/9XttLI0oH0I/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "하누",
+        "channelTitle": "RESCENE",
         "liveBroadcastContent": "none",
-        "publishTime": "2025-12-02T08:38:20Z"
+        "publishTime": "2024-08-27T09:00:06Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "ImkHG11UvTEBmIWg2YnV75luG-U",
+      "etag": "UdwBstNH9UU7BqhDmqe_Yz7Ytog",
       "id": {
         "kind": "youtube#video",
-        "videoId": "C_DcH3dNIOk"
+        "videoId": "hynwrpzjRFg"
       },
       "snippet": {
-        "publishedAt": "2025-07-31T10:15:02Z",
-        "channelId": "UCzch5yPRv4y0wGRlFti0YyQ",
-        "title": "전동 서핑 보드 혼자타면 위험한 이유",
-        "description": "이 영상은 전동 서핑보드 사용 중 발생할 수 있는 안전 사고 위험과 기기 구조 이해를 돕기 위한 정보 전달 콘텐츠입니다. 영상에 등장 ...",
+        "publishedAt": "2026-06-02T09:00:19Z",
+        "channelId": "UCKNZsAeQXpvI-Mpoc0ZKhsA",
+        "title": "[하이라이트] 거제 야~호~📢 외치다가 홍보대사 소원 성취한✨ 갓기 시절 리센느 라디오 하이라이트 | #MBCRADIO #친한친구이현입니다 #리센느 | MBC 250212 방송",
+        "description": "거제 야~호~   외치다가 홍보대사 소원 성취한✨ 갓기 시절 리센느 라디오 하이라이트 타임코드 00:00 갓기 시절 리센느 라디오 ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/C_DcH3dNIOk/default.jpg",
+            "url": "https://i.ytimg.com/vi/hynwrpzjRFg/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/C_DcH3dNIOk/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/hynwrpzjRFg/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/C_DcH3dNIOk/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/hynwrpzjRFg/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "삽지식",
+        "channelTitle": "Mhz 므흐즈: MBC RADIO",
         "liveBroadcastContent": "none",
-        "publishTime": "2025-07-31T10:15:02Z"
+        "publishTime": "2026-06-02T09:00:19Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "yMhT3cVOVdg5-9Nm_xNm8G09hng",
+      "etag": "Trq_f24FNGFfafcdHaOIkIZ1pJM",
       "id": {
         "kind": "youtube#video",
-        "videoId": "MSb-wMzdKNU"
+        "videoId": "pBNEHLgZwUg"
       },
       "snippet": {
-        "publishedAt": "2025-09-21T02:35:19Z",
-        "channelId": "UCHCdFsm2kFkEsHN5s0ZmrJA",
-        "title": "서퍼들이 서핑보드 때를 벗겨내는 이유",
-        "description": "미국에서 서핑을 즐기는 사람들에게 서핑보드 관리는 필수입니다. 서핑보드는 바닷물, 햇빛, 모래에 항상 노출되기 때문에 정기적인 ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/MSb-wMzdKNU/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/MSb-wMzdKNU/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/MSb-wMzdKNU/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "정보온",
-        "liveBroadcastContent": "none",
-        "publishTime": "2025-09-21T02:35:19Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "VehayX8yP3eYfQPYQ3ib5Y4NGXI",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "41F07xZaW5g"
-      },
-      "snippet": {
-        "publishedAt": "2023-12-12T08:00:04Z",
-        "channelId": "UCOsm6HYBtMYggxew-phqklA",
-        "title": "5초만에 환상적인 배럴을 타는법 #스킴보드",
+        "publishedAt": "2026-06-03T07:53:12Z",
+        "channelId": "UCdjlUUUZj5P2r4j3vHWSQAA",
+        "title": "진짜 괴랄하다는 리센느의 과거",
         "description": "",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/41F07xZaW5g/default.jpg",
+            "url": "https://i.ytimg.com/vi/pBNEHLgZwUg/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/41F07xZaW5g/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/pBNEHLgZwUg/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/41F07xZaW5g/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/pBNEHLgZwUg/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "득템숍",
+        "channelTitle": "에어포켓",
         "liveBroadcastContent": "none",
-        "publishTime": "2023-12-12T08:00:04Z"
+        "publishTime": "2026-06-03T07:53:12Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "hyGCNNkC3kMHpc2zOr_XafAUBWw",
+      "etag": "cFKl5uxNeRd_LYKlvsUGw6JpvB0",
       "id": {
         "kind": "youtube#video",
-        "videoId": "yaxIq8f9jKo"
+        "videoId": "qJIVcar5gHg"
       },
       "snippet": {
-        "publishedAt": "2024-05-02T00:26:58Z",
-        "channelId": "UClS1Q-gxyOMC2FHaFKBsg8g",
-        "title": "파도랑 박자가 맞으면 얼마나 기분이 좋게요?! #서핑 #서핑배우기 #서핑강습 #서핑초보 #테이크오프",
-        "description": "서핑 테이크오프 연습하는 방법.",
+        "publishedAt": "2025-07-03T10:01:31Z",
+        "channelId": "UC5AvCi0P9NtXsdLfzzfXgJw",
+        "title": "급 조롱하기 #리센느 #원이 #미나미",
+        "description": "업로드 완료 후 유튜브 자체 영상처리 과정이 끝나면 화면과 음성이 정상적으로 나옵니다.※ 배텐 치지직 ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/yaxIq8f9jKo/default.jpg",
+            "url": "https://i.ytimg.com/vi/qJIVcar5gHg/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/yaxIq8f9jKo/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/qJIVcar5gHg/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/yaxIq8f9jKo/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/qJIVcar5gHg/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "KEEP SURFING 킵서핑 ",
+        "channelTitle": "난아메리카노 [배성재의 텐]",
         "liveBroadcastContent": "none",
-        "publishTime": "2024-05-02T00:26:58Z"
+        "publishTime": "2025-07-03T10:01:31Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "tSh__piDI3edGVOIq5LMtmPiUJ0",
+      "etag": "AIzgVBgW8b2hNx_0D7jGILPBtMs",
       "id": {
         "kind": "youtube#video",
-        "videoId": "4zW2CR0AKjg"
+        "videoId": "eLlSb9X9Cxg"
       },
       "snippet": {
-        "publishedAt": "2025-09-14T03:00:05Z",
-        "channelId": "UCMA3UencIA-B0E-Frte4sNQ",
-        "title": "서핑 고인물 수준 ㄷㄷ",
-        "description": "서핑 #바다 #여름.",
+        "publishedAt": "2026-06-01T13:32:30Z",
+        "channelId": "UC4Enef7kl9lmMP509LqmEpg",
+        "title": "260601 RESCENE (리센느) &#39;LOVE ATTACK&#39; @국립순천대학교 축제 직캠",
+        "description": "260601 리센느 국립순천대학교 축제 'LOVE ATTACK' 4K 직캠 #리센느 #rescene #원이 #미나미 #제나 #리브 #메이.",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/4zW2CR0AKjg/default.jpg",
+            "url": "https://i.ytimg.com/vi/eLlSb9X9Cxg/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/4zW2CR0AKjg/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/eLlSb9X9Cxg/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/4zW2CR0AKjg/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/eLlSb9X9Cxg/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "얼루룩덜루룩",
+        "channelTitle": "Rainbow one",
         "liveBroadcastContent": "none",
-        "publishTime": "2025-09-14T03:00:05Z"
+        "publishTime": "2026-06-01T13:32:30Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "rte_0ZpkR5SvAFEqqe9cdyr7efc",
+      "etag": "GqvNfxkyR1QKir-oSwFpF3CMG3A",
       "id": {
         "kind": "youtube#video",
-        "videoId": "RviwyHEcER8"
+        "videoId": "ahvYtnrFxIQ"
       },
       "snippet": {
-        "publishedAt": "2025-02-18T06:28:00Z",
-        "channelId": "UCbqVTSQRdtqVpfVZhJo67Zg",
-        "title": "서핑의 꽃, 배럴 #shorts #surfing #barrel,",
+        "publishedAt": "2025-09-20T09:59:07Z",
+        "channelId": "UCkQ_VWRV5xw4HJOQqaucIHg",
+        "title": "[리센느] 운전하면 성격 나빠지는 이유 #리센느",
+        "description": "리센느 #rescene #リセンヌ #원이 #리브 #미나미 #메이 #제나 #kpop #케이팝 #shorts.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ahvYtnrFxIQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ahvYtnrFxIQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ahvYtnrFxIQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리센느서치P 🔭",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-09-20T09:59:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "yDFFP_qwcaejteQQ5IgI7sEJQL0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "LW575iMjHMc"
+      },
+      "snippet": {
+        "publishedAt": "2025-09-15T22:42:41Z",
+        "channelId": "UCcmeB_F8YXpWOMRF5DrFQ6A",
+        "title": "리센느 학대 아닌 이유",
         "description": "",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/RviwyHEcER8/default.jpg",
+            "url": "https://i.ytimg.com/vi/LW575iMjHMc/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/RviwyHEcER8/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/LW575iMjHMc/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/RviwyHEcER8/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/LW575iMjHMc/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "보드바이브",
+        "channelTitle": "리센느붐업",
         "liveBroadcastContent": "none",
-        "publishTime": "2025-02-18T06:28:00Z"
+        "publishTime": "2025-09-15T22:42:41Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "Nkss0EiMnNaHR5iYJE5QieQW_fU",
+      "etag": "9Eu1Pe7mpRB_r3RGodjzfA-BjYo",
       "id": {
         "kind": "youtube#video",
-        "videoId": "As86BoSziQM"
+        "videoId": "QvkGVmiXQxw"
       },
       "snippet": {
-        "publishedAt": "2025-07-10T03:40:00Z",
-        "channelId": "UC2JnNjvAAjruT1r_Z5ZwQjg",
-        "title": "서핑강사가 강습내내 같이 파도를 타는 이유",
-        "description": "이 영상은 AI TTS 음성과 디지털 제작 방식을 활용하되, 창작자의 해석과 편집을 바탕으로 직접 커스터마이징한 창작 콘텐츠입니다.",
+        "publishedAt": "2025-07-05T10:19:05Z",
+        "channelId": "UCkQ_VWRV5xw4HJOQqaucIHg",
+        "title": "[리센느] 연예인병 치료 1타 강사 #리센느",
+        "description": "리센느 #rescene #원이 #리브 #미나미 #메이 #제나 #kpop #케이팝 #shorts.",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/As86BoSziQM/default.jpg",
+            "url": "https://i.ytimg.com/vi/QvkGVmiXQxw/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/As86BoSziQM/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/QvkGVmiXQxw/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/As86BoSziQM/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/QvkGVmiXQxw/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "이츠쇼츠",
+        "channelTitle": "리센느서치P 🔭",
         "liveBroadcastContent": "none",
-        "publishTime": "2025-07-10T03:40:00Z"
+        "publishTime": "2025-07-05T10:19:05Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "zDPGe104g-ikHGBVxqbE2Id-BhA",
+      "etag": "i1a0VxOEPgdaZIVPAeSDE0xlwlw",
       "id": {
         "kind": "youtube#video",
-        "videoId": "7-dpDy7odY4"
+        "videoId": "VnqgmOJaMGc"
       },
       "snippet": {
-        "publishedAt": "2025-04-12T11:45:00Z",
-        "channelId": "UCt3s1Buf5LsQIQJ82awhbJA",
-        "title": "서퍼들이 파도에  열광하는 이유",
-        "description": "서퍼들이 파도에 열광하는 이유 #서핑 #서퍼 #suffer.",
+        "publishedAt": "2024-09-22T10:24:17Z",
+        "channelId": "UCuqFFZafd0f3PdOmL7_zFXw",
+        "title": "RESCENE (리센느) - LOVE ATTACK(러브어택) [가사 | Lyrics]",
+        "description": "RESCENE (리센느) - LOVE ATTACK(러브어택) [가사 | Lyrics] #RESCENE #리센느 #러브어택 #LOVEATTACK.",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/7-dpDy7odY4/default.jpg",
+            "url": "https://i.ytimg.com/vi/VnqgmOJaMGc/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/7-dpDy7odY4/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/VnqgmOJaMGc/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/7-dpDy7odY4/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/VnqgmOJaMGc/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "파도중독자들",
+        "channelTitle": "슬랴+",
         "liveBroadcastContent": "none",
-        "publishTime": "2025-04-12T11:45:00Z"
+        "publishTime": "2024-09-22T10:24:17Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "jl7_iRUJh99ChuU6LpnstSTfV3w",
+      "etag": "ikr9zzeDFQr2JmLUbEupYYx2HUs",
       "id": {
         "kind": "youtube#video",
-        "videoId": "4ZMO_-iasaQ"
+        "videoId": "QMKiqgtnxfM"
       },
       "snippet": {
-        "publishedAt": "2023-02-16T02:15:00Z",
-        "channelId": "UCK4Ilrc3h-HV3WoXdqpR5wA",
-        "title": "파도 위를 나는 서핑 어른이들의 장난감ㄷㄷ #shorts",
-        "description": "",
+        "publishedAt": "2026-06-03T11:51:24Z",
+        "channelId": "UCuFEkNM2_A_ZkinYZ0maHIg",
+        "title": "잘나가는 리센느 근황",
+        "description": "리센느 #원이 #제나 #미나미 #신라공주 #갸루 #거제야호 #러브어택 #데자부 #여돌 #아이돌.",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/4ZMO_-iasaQ/default.jpg",
+            "url": "https://i.ytimg.com/vi/QMKiqgtnxfM/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/4ZMO_-iasaQ/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/QMKiqgtnxfM/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/4ZMO_-iasaQ/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/QMKiqgtnxfM/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "신기한 서핑이야기",
+        "channelTitle": "아이돌냥",
         "liveBroadcastContent": "none",
-        "publishTime": "2023-02-16T02:15:00Z"
+        "publishTime": "2026-06-03T11:51:24Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "ixJvyRTuUos839Xfydh1_9RkDik",
+      "etag": "fbcF_qsVsfzLU571JIaXhNrq9y4",
       "id": {
         "kind": "youtube#video",
-        "videoId": "gyoSYywsL10"
+        "videoId": "gf-cHM1DkjU"
       },
       "snippet": {
-        "publishedAt": "2023-08-23T07:00:15Z",
-        "channelId": "UCDiC99r8eSm_UyjdHESERwg",
-        "title": "좋은파도에서 아무것도 못하기🌊🌊🌊 #발리 #발리서핑 #발리이민 #발리여행",
-        "description": "발리에서 파도타기 #발리 #발리서핑 #서핑 #발리이민 #발리여행.",
+        "publishedAt": "2026-05-30T11:51:02Z",
+        "channelId": "UCqA58HJhzETaaR6WyJhp9aQ",
+        "title": "리센느 &#39;소속사 대표&#39;의 정체",
+        "description": "리센느 #미나미 #원이 #아이돌 #이슈 #논란 #엔터테인먼트 #shorts.",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/gyoSYywsL10/default.jpg",
+            "url": "https://i.ytimg.com/vi/gf-cHM1DkjU/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/gyoSYywsL10/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/gf-cHM1DkjU/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/gyoSYywsL10/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/gf-cHM1DkjU/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "발리왕모글리",
+        "channelTitle": "김팩트",
         "liveBroadcastContent": "none",
-        "publishTime": "2023-08-23T07:00:15Z"
+        "publishTime": "2026-05-30T11:51:02Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "mXQcYF7OVBF6JkG_BTPyY75X-V4",
+      "etag": "ELRfJU12Gn34plp2Yxq3HrfMoFg",
       "id": {
         "kind": "youtube#video",
-        "videoId": "Cp2BUS9Y0gE"
+        "videoId": "cA8InZsTkXI"
       },
       "snippet": {
-        "publishedAt": "2024-08-15T08:00:12Z",
-        "channelId": "UCzweBsv4ObWVY2KjeKuQdNA",
-        "title": "서핑의 꽃 “배럴”#shorts",
-        "description": "서핑중에 파도가 말리는 현상 배럴에 대한 정보 영상입니다 #배럴.",
+        "publishedAt": "2024-09-12T09:38:42Z",
+        "channelId": "UCbD8EppRX3ZwJSou-TVo90A",
+        "title": "RESCENE (리센느) - LOVE ATTACK #엠카운트다운 EP.862 | Mnet 240912 방송",
+        "description": "티빙에서 스트리밍 : https://tving.onelink.me/xHqC/30a78d6f M COUNTDOWN｜Ep.862 리센느 - 러브 어택 (RESCENE - LOVE ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/Cp2BUS9Y0gE/default.jpg",
+            "url": "https://i.ytimg.com/vi/cA8InZsTkXI/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/Cp2BUS9Y0gE/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/cA8InZsTkXI/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/Cp2BUS9Y0gE/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/cA8InZsTkXI/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "지식홀릭",
+        "channelTitle": "Mnet K-POP",
         "liveBroadcastContent": "none",
-        "publishTime": "2024-08-15T08:00:12Z"
+        "publishTime": "2024-09-12T09:38:42Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "C1vFwkDigkp6c9BBKBxXYxGh_WI",
+      "etag": "NaRKbqoNu_VNVuXsmkeJXF-XDc8",
       "id": {
         "kind": "youtube#video",
-        "videoId": "U2pct9lHvw8"
+        "videoId": "VB_vtps_wus"
       },
       "snippet": {
-        "publishedAt": "2025-05-15T07:30:30Z",
-        "channelId": "UCXZx953K0FgkT3H2FaFAcew",
-        "title": "슈뻘맨 유튜브 그만하고 서핑선수 하겠습니다.. 뻘둥이들 안녕..",
-        "description": "오랜만에 돌아온 슈뻘맨과 운동찾기!! 오늘은 무슨 운동!?! 바로 실내스포츠중 제일 시원하다는 실내서핑..!!! 과연 슈뻘맨은 실내 서핑을 ...",
+        "publishedAt": "2026-04-16T11:03:25Z",
+        "channelId": "UCbD8EppRX3ZwJSou-TVo90A",
+        "title": "RESCENE(리센느) - Runaway #엠카운트다운 EP.924 | Mnet 260416 방송",
+        "description": "티빙에서 스트리밍 : https://tving.onelink.me/xHqC/30a78d6f M COUNTDOWN｜Ep.924 리센느 - 런어웨이 (RESCENE - Runaway) ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/U2pct9lHvw8/default.jpg",
+            "url": "https://i.ytimg.com/vi/VB_vtps_wus/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/U2pct9lHvw8/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/VB_vtps_wus/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/U2pct9lHvw8/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/VB_vtps_wus/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "슈뻘맨 [슈퍼 뻘짓 도전기]",
+        "channelTitle": "Mnet K-POP",
         "liveBroadcastContent": "none",
-        "publishTime": "2025-05-15T07:30:30Z"
+        "publishTime": "2026-04-16T11:03:25Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "0SpAIYxOaRB2rRECcfbvRetRxv4",
+      "etag": "nMzQrLuzWJKoKlVhAL6oTiwV5yY",
       "id": {
         "kind": "youtube#video",
-        "videoId": "BFw7g1r9QtE"
+        "videoId": "jciMWQgUVCA"
       },
       "snippet": {
-        "publishedAt": "2023-05-30T10:09:34Z",
-        "channelId": "UCsYawrVV5k_AbW3o0GXbHGg",
-        "title": "15m 빅웨이브 파도 타고 바닷속 바닥 찍기ㄷㄷ",
-        "description": "빅웨이브 파도가 몰아칠때 20~50피트 높이에서 바닥까지 내리칠 수 있다 함;;",
+        "publishedAt": "2025-07-03T09:37:59Z",
+        "channelId": "UCbD8EppRX3ZwJSou-TVo90A",
+        "title": "&#39;최초 공개&#39; RESCENE(리센느) - Deja Vu #엠카운트다운 EP.895 | Mnet 250703 방송",
+        "description": "티빙에서 스트리밍 : https://tving.onelink.me/xHqC/30a78d6f M COUNTDOWN｜Ep.895 리센느 - 데자부 - (RESCENE - Deja Vu) ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/BFw7g1r9QtE/default.jpg",
+            "url": "https://i.ytimg.com/vi/jciMWQgUVCA/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/BFw7g1r9QtE/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/jciMWQgUVCA/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/BFw7g1r9QtE/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/jciMWQgUVCA/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "밈튜브",
+        "channelTitle": "Mnet K-POP",
         "liveBroadcastContent": "none",
-        "publishTime": "2023-05-30T10:09:34Z"
+        "publishTime": "2025-07-03T09:37:59Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "sTk6G_otgTUN5oq_Yfz7grCpbNM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1FGbing2Hm8"
+      },
+      "snippet": {
+        "publishedAt": "2025-08-16T10:30:05Z",
+        "channelId": "UCkQ_VWRV5xw4HJOQqaucIHg",
+        "title": "[리센느] 절대 박으면 안 되는 차 #리센느",
+        "description": "리센느 #rescene #원이 #리브 #미나미 #메이 #제나 #kpop #케이팝 #shorts.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1FGbing2Hm8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1FGbing2Hm8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1FGbing2Hm8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리센느서치P 🔭",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-08-16T10:30:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "FPHfuIW9rxTuaDpIwnhraGFSsog",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "FRKt1PyLOQk"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-03T03:05:33Z",
+        "channelId": "UCuvwtQhn5SklgX1JIBuzKLw",
+        "title": "일본인 멤버 한국말 센스 수준 | 리센느 미나미",
+        "description": "전화연결일 뿐인데도 활약이 대단한 미나미 어휘력 드립 센스 만점 ▷ 타임라인 00:00 DJ님 조련하는 미나미 00:51 고마움은 돈으로 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FRKt1PyLOQk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FRKt1PyLOQk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FRKt1PyLOQk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "이센느",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-03T03:05:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nAFC27yjjID-W5LjjY1UQRousOs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vBPIDiyafO0"
+      },
+      "snippet": {
+        "publishedAt": "2024-09-01T04:00:42Z",
+        "channelId": "UCTQVIXvcHrR9jYoJ6qaBAow",
+        "title": "요정 같은 리센느 &#39;LOVE ATTACK&#39; 릴댄 극락 파트 | 릴레이댄스",
+        "description": "요정 같은 리센느 'LOVE ATTACK' 릴댄 극락 파트 | 릴레이댄스 More from #M2? :D Facebook: https://www.facebook.com/MnetM2 X: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vBPIDiyafO0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vBPIDiyafO0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vBPIDiyafO0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "M2",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-09-01T04:00:42Z"
       }
     }
   ]

@@ -1,0 +1,73 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "xcGhggTjrBSowxRiDE-ConVAltg",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "8tMSN34MXY4bTm43tl8wLr3Yto0",
+      "id": "jcGb3UpbdwI",
+      "snippet": {
+        "publishedAt": "2026-06-09T01:43:59Z",
+        "channelId": "UC-75---6clEI74Ra6DZNYbw",
+        "title": "레전드가 되어버린 리센느 미나미님 초대석",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jcGb3UpbdwI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jcGb3UpbdwI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jcGb3UpbdwI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/jcGb3UpbdwI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/jcGb3UpbdwI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "유후의 피아노래",
+        "tags": ["리센느", "미나미", "거제야호"],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "레전드가 되어버린 리센느 미나미님 초대석",
+          "description": ""
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT24M7S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "92604",
+        "likeCount": "3196",
+        "favoriteCount": "0",
+        "commentCount": "533"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
