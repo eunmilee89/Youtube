@@ -2,6 +2,7 @@ import { LuSearch } from "react-icons/lu";
 import { LuMic } from "react-icons/lu";
 import { useEffect, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router";
+import FeedBackBtn from "./FeedBackBtn";
 
 export default function SearchForm() {
   const [searchParams] = useSearchParams();
@@ -36,9 +37,7 @@ export default function SearchForm() {
           <LuSearch />
         </button>
       </form>
-      <button className="bg-zinc-800 rounded-full p-2 cursor-pointer">
-        <LuMic />
-      </button>
+      <FeedBackBtn icon={<LuMic />} onClick={() => {}} style={"w-10 h-10"} />
     </div>
   );
 }
