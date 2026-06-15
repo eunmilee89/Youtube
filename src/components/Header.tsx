@@ -50,14 +50,22 @@ export default function Header() {
         >
           <LuSearch />
         </button>
-        <FeedBackBtn icon={<LuPlus />} text={"만들기"} onClick={() => {}} />
-        <button className="shrink-0 cursor-pointer">
-          <LuBell />
-        </button>
-
-        <button className="bg-zinc-800 rounded-full p-2 cursor-pointer">
-          <LuUserRound />
-        </button>
+        <FeedBackBtn
+          icon={<LuPlus />}
+          text={"만들기"}
+          onClick={() => {}}
+          style="max-sm:hidden"
+        />
+        <FeedBackBtn
+          icon={<LuBell />}
+          onClick={() => {}}
+          style={"w-10 h-10 bg-zinc-900"}
+        />
+        <FeedBackBtn
+          icon={<LuUserRound />}
+          onClick={() => {}}
+          style={"w-10 h-10"}
+        />
       </div>
     </header>
   );
