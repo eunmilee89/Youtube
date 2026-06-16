@@ -62,16 +62,20 @@ export default class Youtube {
       .then((res) => res.data.items);
   }
 
-  async getCommentsByVideoId(keyword: string): Promise<CommentThread[]> {
+  async getCommentsByVideoId(
+    videoId: string,
+    pageToken?: string,
+  ): Promise<YoutubeListResponse<CommentThread>> {
     return this.httpClient
-      .get("search", {
+      .get("commentThreads", {
         params: {
           part: "snippet",
-          q: keyword,
-          maxResults: 25,
+          videoId,
+          maxResults: 20,
+          pageToken,
         },
       })
-      .then((res) => res.data.items);
+      .then((res) => res.data);
   }
 
   async getVideoById(videoId: string): Promise<SearchResultItem> {

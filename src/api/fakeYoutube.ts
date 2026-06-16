@@ -4,6 +4,7 @@ import type {
   CommentThread,
   SearchResponse,
   SearchResultItem,
+  YoutubeListResponse,
 } from "../../public/types/youtube";
 import Youtube from "./youtube";
 
@@ -30,8 +31,11 @@ export default class FakeYoutube extends Youtube {
     return axios.get(`/data/channel-id.json`).then((res) => res.data.items[0]);
   }
 
-  async getCommentsByVideoId(_keyword?: string): Promise<CommentThread[]> {
-    return axios.get(`/data/comment-by-id.json`).then((res) => res.data.items);
+  async getCommentsByVideoId(
+    _videoId?: string,
+    _pageToken?: string,
+  ): Promise<YoutubeListResponse<CommentThread>> {
+    return axios.get(`/data/comment-by-id.json`).then((res) => res.data);
   }
 
   async getVideoById(_videoId?: string): Promise<SearchResultItem> {
