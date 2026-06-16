@@ -5,6 +5,7 @@ import { useQuery } from "@tanstack/react-query";
 import { useYoutubeApi } from "../context/useYoutubeApi";
 import ChannelImageText from "./ChannelImageText";
 import { formatCount } from "../util/formatCount";
+import { decodeHtmlEntities } from "../util/decodeHtmlEntities";
 
 interface Props {
   video: SearchResultItem;
@@ -50,7 +51,9 @@ export default function VideoCard({ video, id }: Props) {
 
         <div className="flex-1 min-w-0" onClick={handleVideoClick}>
           <div className="flex flex-col cursor-pointer">
-            <h3 className="text-lg line-clamp-2">{video.snippet.title}</h3>
+            <h3 className="text-lg line-clamp-2">
+              {decodeHtmlEntities(video.snippet.title)}
+            </h3>
 
             <div className="flex items-center gap-1 text-xs text-zinc-400 my-1">
               <span>조회수 {formatCount(data?.statistics.viewCount)}회</span>
