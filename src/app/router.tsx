@@ -16,7 +16,7 @@ export const router = createBrowserRouter([
       },
       { path: "watch", element: <Watch /> },
       { path: "results", element: <Search /> },
-      { path: "@:channelId", element: <Channel /> },
+      { path: ":channelId", element: <Channel /> },
     ],
   },
 ]);
