@@ -54,7 +54,7 @@ export default function Header() {
           icon={<LuPlus />}
           text={"만들기"}
           onClick={() => {}}
-          style="max-sm:hidden"
+          style="max-sm:hidden shrink-0"
         />
         <FeedBackBtn
           icon={<LuBell />}
