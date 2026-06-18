@@ -10,7 +10,10 @@ import { RiDownloadLine, RiGeminiFill } from "react-icons/ri";
 import { useRef, useState, useEffect } from "react";
 import { FiFlag } from "react-icons/fi";
 import DropdownMenuItem from "./DropdownMenuItem";
-import Comment from "./Comment";
+import { formatAgo } from "../util/date";
+import ChannelSubscriber from "./ChannelSubscriber";
+import { GoVideo } from "react-icons/go";
+import { BsPersonSquare } from "react-icons/bs";
 
 type Props = {
   id: string;
@@ -23,6 +26,7 @@ export default function VideoPlayer({ id }: Props) {
   const containerRef = useRef<HTMLDivElement>(null); // 드롭다운 외부 클릭 감지용
   const [width, setWidth] = useState(0);
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(false);
 
   const { data: video } = useQuery({
     queryKey: ["video", id],
@@ -36,6 +40,7 @@ export default function VideoPlayer({ id }: Props) {
     queryFn: () => youtube.getChannelById(channelId!),
     enabled: !!channelId,
   });
+  const handleDescriptionOpen = () => setIsExpanded((prev) => !prev);
 
   const handleChannelClick = () => navigate(`/@${channelId}`);
 
@@ -129,7 +134,7 @@ export default function VideoPlayer({ id }: Props) {
 
         {/*  드롭다운 표시 */}
         {dropdownOpen && (
-          <div className="absolute right-0 top-11 bg-zinc-800 rounded-xl overflow-hidden z-50 min-w-[160px]">
+          <div className="absolute right-0 top-11 bg-zinc-800 rounded-xl overflow-hidden z-50 min-w-40">
             {hiddenCount >= 1 && (
               <DropdownMenuItem
                 icon={<MdOutlineBookmarkBorder />}
@@ -161,7 +166,7 @@ export default function VideoPlayer({ id }: Props) {
   );
 
   return (
-    <div ref={observerRef} className="mx-4">
+    <div ref={observerRef}>
       <section>
         <iframe
           id="player"
@@ -174,28 +179,15 @@ export default function VideoPlayer({ id }: Props) {
           <h1 className="text-xl font-semibold mb-2">{video?.snippet.title}</h1>
 
           <div className="sm:flex sm:justify-between max-sm:flex-col max-sm:gap-2">
-            <div className="flex items-center">
-              <img
-                src={channel?.snippet?.thumbnails?.default.url}
-                className="rounded-full w-10 h-10 mr-3 cursor-pointer"
-                onClick={handleChannelClick}
-              />
-              <div className="flex gap-5 items-center">
-                <div>
-                  <div className="cursor-pointer" onClick={handleChannelClick}>
-                    {channel?.snippet.title}
-                  </div>
-                  {formatCount(channel?.statistics?.subscriberCount) && (
-                    <div className="text-xs text-zinc-400">
-                      구독자 {formatCount(channel?.statistics.subscriberCount)}
-                      명
-                    </div>
-                  )}
-                </div>
-                <FeedBackBtn text={"구독"} onClick={() => {}} />
-              </div>
+            <div className="flex gap-6 items-center">
+              {channel && (
+                <ChannelSubscriber
+                  channel={channel}
+                  onClick={handleChannelClick}
+                />
+              )}
+              <FeedBackBtn text="구독" onClick={() => {}} />
             </div>
-
             <div
               ref={containerRef}
               className={`flex relative ${isCol ? "flex-col gap-2 mt-4" : "max-sm:mt-4"}`}
@@ -208,10 +200,65 @@ export default function VideoPlayer({ id }: Props) {
             </div>
           </div>
         </div>
-      </section>
+        <div
+          className="bg-zinc-800 rounded-lg p-3 text-[14px]  mb-5"
+          onClick={handleDescriptionOpen}
+        >
+          <span className="font-semibold">
+            조회수 {formatCount(video?.statistics.viewCount)}회
+          </span>{" "}
+          <span className="font-semibold">
+            {video?.snippet.publishedAt &&
+              formatAgo(video.snippet.publishedAt, "ko")}
+          </span>
+          {video?.snippet.description ? (
+            <div className={isExpanded ? "" : "line-clamp-2"}>
+              {video.snippet.description}
+            </div>
+          ) : (
+            <div className="text-zinc-500">
+              이 동영상에 추가된 설명이 없습니다.
+            </div>
+          )}
+          {channel && isExpanded && (
+            <div className="my-10">
+              <h2 className="mb-3 text-lg font-semibold">질문하기</h2>
+              <span className="text-zinc-500">
+                궁금한 점을 해결하고, 관심 있는 주제도 살펴보세요
+              </span>
+              <FeedBackBtn
+                icon={<RiGeminiFill />}
+                text="질문하기"
+                onClick={() => {}}
+                style="border-1 border-solid border-zinc-600 mt-3 mb-10"
+              />
 
-      <section>
-        <Comment id={id} />
+              <div className="my-5">
+                <ChannelSubscriber
+                  channel={channel}
+                  onClick={handleChannelClick}
+                />
+              </div>
+              <div className="flex gap-3">
+                <FeedBackBtn
+                  icon={<GoVideo />}
+                  text="동영상"
+                  onClick={handleChannelClick}
+                  style="border-1 border-solid border-zinc-600"
+                />
+                <FeedBackBtn
+                  icon={<BsPersonSquare />}
+                  text="정보"
+                  onClick={() => {}}
+                  style="border-1 border-solid border-zinc-600"
+                />
+              </div>
+            </div>
+          )}
+          <button className="cursor-pointer active:bg-zinc-100/20 rounded-sm p-0.5 font-semibold">
+            {isExpanded ? "간략히" : "...더보기"}
+          </button>
+        </div>
       </section>
     </div>
   );
