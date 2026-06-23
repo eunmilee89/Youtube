@@ -17,10 +17,7 @@ export default class FakeYoutube extends Youtube {
     _keyword?: string,
     _pageToken?: string,
   ): Promise<SearchResponse> {
-    return axios.get(`/data/keyword.json`).then((res) => ({
-      items: res.data.items,
-      nextPageToken: undefined,
-    }));
+    return axios.get(`/data/keyword.json`).then((res) => res.data);
   }
 
   async getMostPopularVideos() {
@@ -31,11 +28,11 @@ export default class FakeYoutube extends Youtube {
     return axios.get(`/data/channel-id.json`).then((res) => res.data.items[0]);
   }
 
-  async getCommentsByVideoId(
+  async getComments(
     _videoId?: string,
     _pageToken?: string,
   ): Promise<YoutubeListResponse<CommentThread>> {
-    return axios.get(`/data/comment-by-id.json`).then((res) => res.data);
+    return axios.get(`/data/commentThreads-by-id.json`).then((res) => res.data);
   }
 
   async getVideoById(_videoId?: string): Promise<SearchResultItem> {
