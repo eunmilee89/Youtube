@@ -26,7 +26,7 @@ export interface VideoId {
 }
 
 export interface Snippet {
-  publishedAt: Date;
+  publishedAt: string;
   channelId: string;
   title: string;
   description: string;
@@ -94,7 +94,7 @@ export interface CommentSnippet {
   canRate: boolean;
   viewerRating: string;
   likeCount: number;
-  publishedAt: Date;
+  publishedAt: string;
   updatedAt: string;
 }
 

@@ -19,6 +19,6 @@ register("ko", (_number: number, index: number): [string, string] => {
   ][index] as [string, string];
 });
 
-export function formatAgo(date: Date, lang = "en_US"): string {
+export function formatAgo(date: string, lang = "en_US"): string {
   return format(date, lang);
 }
