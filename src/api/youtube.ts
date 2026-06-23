@@ -62,22 +62,6 @@ export default class Youtube {
       .then((res) => res.data.items);
   }
 
-  async getCommentsByVideoId(
-    videoId: string,
-    pageToken?: string,
-  ): Promise<YoutubeListResponse<CommentThread>> {
-    return this.httpClient
-      .get("commentThreads", {
-        params: {
-          part: "snippet",
-          videoId,
-          maxResults: 20,
-          pageToken,
-        },
-      })
-      .then((res) => res.data);
-  }
-
   async getVideoById(videoId: string): Promise<SearchResultItem> {
     return this.httpClient
       .get<YoutubeListResponse<SearchResultItem>>("videos", {
@@ -87,5 +71,19 @@ export default class Youtube {
         },
       })
       .then((res) => res.data.items[0]);
+  }
+
+  getComments(videoId: string, pageToken?: string) {
+    return this.httpClient
+      .get<YoutubeListResponse<CommentThread>>("commentThreads", {
+        params: {
+          part: "id,snippet,replies",
+          videoId: videoId,
+          maxResults: 20,
+          textFormat: "html",
+          pageToken,
+        },
+      })
+      .then((res) => res.data);
   }
 }
