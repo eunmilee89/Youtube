@@ -3,16 +3,27 @@ interface Props {
   text?: string;
   onClick: () => void;
   style?: string;
+  iconSize?: string;
+  textSize?: string;
 }
 
-export default function FeedBackBtn({ icon, text, onClick, style }: Props) {
+export default function FeedBackBtn({
+  icon,
+  text,
+  onClick,
+  style,
+  iconSize,
+  textSize,
+}: Props) {
   return (
     <button
       onClick={onClick}
-      className={`flex items-center justify-center gap-1 bg-zinc-800 text-[14px] font-semibold rounded-full px-4 h-9 hover:bg-zinc-100/20 cursor-pointer ${style}`}
+      className={`flex items-center justify-center gap-2 px-4 h-9 font-semibold rounded-full hover:bg-zinc-100/20 cursor-pointer ${style ?? "bg-zinc-800"}`}
     >
-      {icon && <span className="text-2xl">{icon}</span>}
-      {text}
+      {icon && <span className={`${iconSize || "text-xl"}`}>{icon}</span>}
+      {text && (
+        <span className={`${textSize ? textSize : "text-[14px]"}`}>{text}</span>
+      )}
     </button>
   );
 }
