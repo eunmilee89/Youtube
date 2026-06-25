@@ -47,6 +47,7 @@ export default function VideoCard({ video, id }: Props) {
           channelId={video.id.videoId}
           channelName={undefined}
           className="sm:hidden self-start"
+          channelSize="w-8 h-8 mt-1"
         />
 
         <div className="flex-1 min-w-0" onClick={handleVideoClick}>
@@ -64,7 +65,7 @@ export default function VideoCard({ video, id }: Props) {
               data={channel}
               channelId={video.id.videoId}
               channelName={channel?.snippet.title}
-              className="hidden sm:block mt-1"
+              className="hidden sm:block mt-1 py-1.5"
             />
 
             <div className="text-xs text-zinc-400 mt-2 max-sm:hidden">
