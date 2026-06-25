@@ -7,6 +7,7 @@ interface Props {
   channelId: string | undefined;
   channelName: string | undefined;
   className?: string;
+  channelSize?: string;
 }
 
 export default function ChannelImageText({
@@ -14,6 +15,7 @@ export default function ChannelImageText({
   channelId,
   channelName,
   className,
+  channelSize,
 }: Props) {
   const navigate = useNavigate();
 
@@ -31,7 +33,7 @@ export default function ChannelImageText({
         {data ? (
           <img
             src={data.snippet.thumbnails.default.url}
-            className="w-6 h-6 rounded-full"
+            className={`${channelSize ? channelSize : "w-6 h-6"} rounded-full`}
           />
         ) : (
           <LuUserRound className="bg-zinc-800 rounded-full w-6 h-6 p-1" />
