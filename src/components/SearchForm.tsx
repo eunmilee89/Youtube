@@ -37,7 +37,12 @@ export default function SearchForm() {
           <LuSearch />
         </button>
       </form>
-      <FeedBackBtn icon={<LuMic />} onClick={() => {}} style={"w-10 h-10"} />
+      <FeedBackBtn
+        icon={<LuMic />}
+        onClick={() => {}}
+        style={"w-10 h-10"}
+        iconSize="text-2xl"
+      />
     </div>
   );
 }

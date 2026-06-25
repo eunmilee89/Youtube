@@ -91,7 +91,7 @@ export default function VideoPlayer({ id }: Props) {
         icon={<LuThumbsUp />}
         text={formatCount(video?.statistics.likeCount)}
         onClick={() => {}}
-        style="rounded-none rounded-l-full"
+        style="rounded-none rounded-l-full bg-zinc-800"
       />
       <div className="w-[1px] h-9 bg-zinc-800 flex items-center justify-center">
         <div className="w-[1px] h-5 bg-white/20" />
@@ -99,20 +99,20 @@ export default function VideoPlayer({ id }: Props) {
       <FeedBackBtn
         icon={<LuThumbsDown />}
         onClick={() => {}}
-        style="mr-2 rounded-none rounded-r-full"
+        style="mr-2 rounded-none rounded-r-full bg-zinc-800"
       />
       <FeedBackBtn
         icon={<TbShare3 />}
         text={"공유"}
         onClick={() => {}}
-        style="mr-2"
+        style="mr-2 bg-zinc-800"
       />
       {hiddenCount < 2 && (
         <FeedBackBtn
           icon={<RiGeminiFill />}
           text={"질문하기"}
           onClick={() => {}}
-          style="mr-2"
+          style="mr-2 bg-zinc-800"
         />
       )}
       {hiddenCount < 1 && (
@@ -120,7 +120,7 @@ export default function VideoPlayer({ id }: Props) {
           icon={<MdOutlineBookmarkBorder />}
           text={"저장"}
           onClick={() => {}}
-          style="mr-2"
+          style="mr-2 bg-zinc-800"
         />
       )}
 
@@ -129,7 +129,7 @@ export default function VideoPlayer({ id }: Props) {
         <FeedBackBtn
           icon={<MdMoreHoriz />}
           onClick={() => setDropdownOpen((p) => !p)}
-          style="w-9"
+          style="w-9 bg-zinc-800"
         />
 
         {/*  드롭다운 표시 */}
@@ -176,7 +176,7 @@ export default function VideoPlayer({ id }: Props) {
         ></iframe>
 
         <div className="my-4">
-          <h1 className="text-xl font-semibold mb-2">{video?.snippet.title}</h1>
+          <h1 className="text-xl font-semibold mb-3">{video?.snippet.title}</h1>
 
           <div className="sm:flex sm:justify-between max-sm:flex-col max-sm:gap-2">
             <div className="flex gap-6 items-center">
