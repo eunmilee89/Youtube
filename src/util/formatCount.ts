@@ -1,4 +1,4 @@
-export function formatCount(countStr: string | undefined): string {
+export function formatCount(countStr: string | number | undefined): string {
   const count = Number(countStr);
 
   if (!countStr || isNaN(count) || count === 0) return "";
@@ -12,8 +12,6 @@ export function formatCount(countStr: string | undefined): string {
     const thousand = count / 1000;
     return `${parseFloat(thousand.toFixed(1))}천`;
   }
-
-  console.log(count);
 
   return `${count}`;
 }
