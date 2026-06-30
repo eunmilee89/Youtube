@@ -3,6 +3,8 @@ import type { CommentSnippet } from "../../public/types/youtube";
 import { formatAgo } from "../util/date";
 import FeedBackBtn from "./FeedBackBtn";
 import { formatCount } from "../util/formatCount";
+import { useState } from "react";
+import { VscThumbsdownFilled, VscThumbsupFilled } from "react-icons/vsc";
 
 type Props = {
   snippet: CommentSnippet;
@@ -11,7 +13,10 @@ type Props = {
   imgSize?: string;
 };
 
+type FeedbackType = "up" | "down" | null;
+
 export default function CommentImageText({ snippet, id, style }: Props) {
+  const [feedback, setFeedback] = useState<FeedbackType>(null);
   return (
     <div key={id} className={`flex gap-3 mb-6 ${style}`}>
       {/* TODO: 답글 이미지 크기랑 패딩 설정 다시 하기  */}
@@ -31,8 +36,10 @@ export default function CommentImageText({ snippet, id, style }: Props) {
         <div className="text-sm">{snippet.textOriginal}</div>
         <div className="flex items-center">
           <FeedBackBtn
-            icon={<LuThumbsUp />}
-            onClick={() => {}}
+            icon={feedback === "up" ? <VscThumbsupFilled /> : <LuThumbsUp />}
+            onClick={() => {
+              setFeedback((prev) => (prev === "up" ? null : "up"));
+            }}
             style="w-9"
             iconSize="text-sm"
           />
@@ -40,8 +47,12 @@ export default function CommentImageText({ snippet, id, style }: Props) {
             {formatCount(snippet.likeCount)}
           </span>
           <FeedBackBtn
-            icon={<LuThumbsDown />}
-            onClick={() => {}}
+            icon={
+              feedback === "down" ? <VscThumbsdownFilled /> : <LuThumbsDown />
+            }
+            onClick={() => {
+              setFeedback((prev) => (prev === "down" ? null : "down"));
+            }}
             style="w-9 mr-1"
             iconSize="text-sm"
           />
