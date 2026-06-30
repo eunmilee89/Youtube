@@ -14,10 +14,13 @@ import { formatAgo } from "../util/date";
 import ChannelSubscriber from "./ChannelSubscriber";
 import { GoVideo } from "react-icons/go";
 import { BsPersonSquare } from "react-icons/bs";
+import { VscThumbsdownFilled, VscThumbsupFilled } from "react-icons/vsc";
 
 type Props = {
   id: string;
 };
+
+type FeedbackType = "up" | "down" | null;
 
 export default function VideoPlayer({ id }: Props) {
   const navigate = useNavigate();
@@ -27,6 +30,7 @@ export default function VideoPlayer({ id }: Props) {
   const [width, setWidth] = useState(0);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [isExpanded, setIsExpanded] = useState(false);
+  const [feedback, setFeedback] = useState<FeedbackType>(null);
 
   const { data: video } = useQuery({
     queryKey: ["video", id],
@@ -40,7 +44,10 @@ export default function VideoPlayer({ id }: Props) {
     queryFn: () => youtube.getChannelById(channelId!),
     enabled: !!channelId,
   });
-  const handleDescriptionOpen = () => setIsExpanded((prev) => !prev);
+  const handleDescriptionOpen = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setIsExpanded((prev) => !prev);
+  };
 
   const handleChannelClick = () => navigate(`/@${channelId}`);
 
@@ -88,17 +95,21 @@ export default function VideoPlayer({ id }: Props) {
   const buttons = (
     <>
       <FeedBackBtn
-        icon={<LuThumbsUp />}
+        icon={feedback === "up" ? <VscThumbsupFilled /> : <LuThumbsUp />}
         text={formatCount(video?.statistics.likeCount)}
-        onClick={() => {}}
+        onClick={() => {
+          setFeedback((prev) => (prev === "up" ? null : "up"));
+        }}
         style="rounded-none rounded-l-full bg-zinc-800"
       />
-      <div className="w-[1px] h-9 bg-zinc-800 flex items-center justify-center">
-        <div className="w-[1px] h-5 bg-white/20" />
+      <div className="w-px h-9 bg-zinc-800 flex items-center justify-center">
+        <div className="w-px h-5 bg-white/20" />
       </div>
       <FeedBackBtn
-        icon={<LuThumbsDown />}
-        onClick={() => {}}
+        icon={feedback === "down" ? <VscThumbsdownFilled /> : <LuThumbsDown />}
+        onClick={() => {
+          setFeedback((prev) => (prev === "down" ? null : "down"));
+        }}
         style="mr-2 rounded-none rounded-r-full bg-zinc-800"
       />
       <FeedBackBtn
@@ -201,7 +212,7 @@ export default function VideoPlayer({ id }: Props) {
           </div>
         </div>
         <div
-          className="bg-zinc-800 rounded-lg p-3 text-[14px]  mb-5"
+          className="bg-zinc-800 rounded-lg p-3 text-[14px] mb-5"
           onClick={handleDescriptionOpen}
         >
           <span className="font-semibold">
@@ -221,7 +232,7 @@ export default function VideoPlayer({ id }: Props) {
             </div>
           )}
           {channel && isExpanded && (
-            <div className="my-10">
+            <div className="my-10" onClick={(e) => e.stopPropagation()}>
               <h2 className="mb-3 text-lg font-semibold">질문하기</h2>
               <span className="text-zinc-500">
                 궁금한 점을 해결하고, 관심 있는 주제도 살펴보세요
