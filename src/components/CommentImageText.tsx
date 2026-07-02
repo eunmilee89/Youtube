@@ -5,6 +5,7 @@ import FeedBackBtn from "./FeedBackBtn";
 import { formatCount } from "../util/formatCount";
 import { useState } from "react";
 import { VscThumbsdownFilled, VscThumbsupFilled } from "react-icons/vsc";
+import CommentInput from "./CommentInput";
 
 type Props = {
   snippet: CommentSnippet;
@@ -17,14 +18,14 @@ type FeedbackType = "up" | "down" | null;
 
 export default function CommentImageText({ snippet, id, style }: Props) {
   const [feedback, setFeedback] = useState<FeedbackType>(null);
+  const [inputOpen, setInputOpen] = useState(false);
   return (
     <div key={id} className={`flex gap-3 mb-6 ${style}`}>
-      {/* TODO: 답글 이미지 크기랑 패딩 설정 다시 하기  */}
       <img
         src={snippet.authorProfileImageUrl}
         className="w-9 h-9 rounded-full"
       />
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-2 w-full">
         <div className="flex items-center text-[13px] gap-2">
           <div className="font-semibold">{snippet.authorDisplayName}</div>
           <div className="text-zinc-400 text-xs">
@@ -58,11 +59,14 @@ export default function CommentImageText({ snippet, id, style }: Props) {
           />
           <FeedBackBtn
             text="답글"
-            onClick={() => {}}
+            onClick={() => {
+              setInputOpen((prev) => !prev);
+            }}
             style="bg-zinc-900"
             textSize="text-xs"
           />
         </div>
+        {inputOpen && <CommentInput closeInput={() => setInputOpen(false)} />}
       </div>
     </div>
   );
