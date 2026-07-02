@@ -8,6 +8,7 @@ import DropdownMenuItem from "./DropdownMenuItem";
 import CommentImageText from "./CommentImageText";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import CommentInput from "./CommentInput";
+import type { CommentOrder } from "../api/youtube";
 
 type Props = {
   id: string;
@@ -19,11 +20,12 @@ export default function Comment({ id }: Props) {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [repliesOpen, setRepliesOpen] = useState(false);
   const [inputOpen, setInputOpen] = useState(false);
+  const [order, setOrder] = useState<CommentOrder>("relevance");
 
   const { data, isLoading, fetchNextPage, hasNextPage, isFetchingNextPage } =
     useInfiniteQuery({
-      queryKey: ["comments", id],
-      queryFn: ({ pageParam }) => youtube.getComments(id, pageParam),
+      queryKey: ["comments", id, order],
+      queryFn: ({ pageParam }) => youtube.getComments(id, pageParam, order),
       initialPageParam: undefined as string | undefined,
       getNextPageParam: (lastPage) => lastPage.nextPageToken,
       enabled: !!id,
@@ -33,6 +35,11 @@ export default function Comment({ id }: Props) {
     queryKey: ["video", id],
     queryFn: () => youtube.getVideoById(id),
   });
+
+  const handleOrderChange = (newOrder: CommentOrder) => {
+    setOrder(newOrder);
+    setDropdownOpen(false);
+  };
 
   const comments = data?.pages.flatMap((page) => page.items) ?? [];
 
@@ -69,12 +76,16 @@ export default function Comment({ id }: Props) {
               <DropdownMenuItem
                 text="인기순"
                 subText="추천 댓글 표시"
-                onClick={() => {}}
+                onClick={() => {
+                  handleOrderChange("relevance");
+                }}
               />
               <DropdownMenuItem
                 text="최신순"
                 subText="스팸 가능성이 있는 댓글을 포함하여 최근 댓글 표시"
-                onClick={() => {}}
+                onClick={() => {
+                  handleOrderChange("time");
+                }}
               />
             </div>
           )}
@@ -100,7 +111,6 @@ export default function Comment({ id }: Props) {
           </div>
         )}
 
-        {/* TODO: 댓글 인풋 컴포넌트 추가 */}
         {inputOpen && <CommentInput closeInput={() => setInputOpen(false)} />}
       </div>
       {comments.map((thread) => (

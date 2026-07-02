@@ -7,6 +7,7 @@ import {
 } from "./../../public/types/youtube";
 import axios, { type AxiosInstance } from "axios";
 
+export type CommentOrder = "relevance" | "time";
 export default class Youtube {
   private httpClient: AxiosInstance;
 
@@ -73,7 +74,11 @@ export default class Youtube {
       .then((res) => res.data.items[0]);
   }
 
-  getComments(videoId: string, pageToken?: string) {
+  getComments(
+    videoId: string,
+    pageToken?: string,
+    order: CommentOrder = "relevance",
+  ) {
     return this.httpClient
       .get<YoutubeListResponse<CommentThread>>("commentThreads", {
         params: {
@@ -82,6 +87,7 @@ export default class Youtube {
           maxResults: 20,
           textFormat: "html",
           pageToken,
+          order,
         },
       })
       .then((res) => res.data);
