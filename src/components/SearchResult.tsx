@@ -5,12 +5,14 @@ import type { SearchResponse } from "../../public/types/youtube";
 import { useEffect, useRef } from "react";
 import { CgSpinner } from "react-icons/cg";
 import VideoCardSkeleton from "./VideoCardSkeleton";
+import { useMediaQuery } from "../hooks/useMediaQuery";
 
 interface Props {
   keyword: string;
 }
 
 export default function SearchResult({ keyword }: Props) {
+  const isRow = useMediaQuery("(min-width: 1024px)");
   const { youtube } = useYoutubeApi();
   const {
     isLoading, // 로딩되고 있는지
@@ -30,6 +32,7 @@ export default function SearchResult({ keyword }: Props) {
   const bottomRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    if (!isRow) return;
     const observer = new IntersectionObserver( // 사용자가 페이지 바닥에 도달했는지 감지
       (entries) => {
         // 인스턴스의 배열
@@ -75,7 +78,9 @@ export default function SearchResult({ keyword }: Props) {
                 <VideoCard
                   key={video.id.videoId}
                   id={video.id.videoId}
+                  channelId={video.snippet.channelId}
                   video={video}
+                  keyword={keyword}
                 />
               )),
           )}

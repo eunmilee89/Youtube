@@ -1,4 +1,8 @@
-import type { ChannelItem, SearchResultItem } from "../../public/types/youtube";
+import type {
+  ChannelItem,
+  SearchResultItem,
+  VideoItem,
+} from "../../public/types/youtube";
 import { formatAgo } from "../util/date";
 import { useNavigate } from "react-router";
 import { useQuery } from "@tanstack/react-query";
@@ -8,11 +12,13 @@ import { formatCount } from "../util/formatCount";
 import { decodeHtmlEntities } from "../util/decodeHtmlEntities";
 
 interface Props {
-  video: SearchResultItem;
+  video: SearchResultItem | VideoItem;
   id: string;
+  channelId: string;
+  keyword?: string;
 }
 
-export default function VideoCard({ video, id }: Props) {
+export default function VideoCard({ video, id, channelId, keyword }: Props) {
   const navigate = useNavigate();
 
   const { youtube } = useYoutubeApi();
@@ -27,14 +33,14 @@ export default function VideoCard({ video, id }: Props) {
   });
 
   const handleVideoClick = () => {
-    navigate(`/watch?v=${id}`);
+    navigate(`/watch?v=${id}`, {
+      state: keyword ? { keyword } : {},
+    });
   };
+
   return (
     <li key={id} className="w-full flex flex-col sm:flex-row gap-4">
-      <div
-        className="sm:max-w-90 sm:min-w-60 sm:shrink-0"
-        onClick={handleVideoClick}
-      >
+      <div className="sm:max-w-90 sm:min-w-50" onClick={handleVideoClick}>
         <img
           className="w-full aspect-video rounded-lg object-cover cursor-pointer"
           src={video.snippet.thumbnails.high.url}
@@ -44,15 +50,15 @@ export default function VideoCard({ video, id }: Props) {
       <div className="flex gap-3 sm:contents">
         <ChannelImageText
           data={channel}
-          channelId={video.id.videoId}
+          channelId={channelId}
           channelName={undefined}
           className="sm:hidden self-start"
           channelSize="w-8 h-8 mt-1"
         />
 
-        <div className="flex-1 min-w-0" onClick={handleVideoClick}>
+        <div className="flex-1 min-w-40" onClick={handleVideoClick}>
           <div className="flex flex-col cursor-pointer">
-            <h3 className="text-lg line-clamp-2">
+            <h3 className="text-xs sm:text-sm lg:text-base font-medium line-clamp-2 break-words overflow-hidden">
               {decodeHtmlEntities(video.snippet.title)}
             </h3>
 
@@ -63,7 +69,7 @@ export default function VideoCard({ video, id }: Props) {
             </div>
             <ChannelImageText
               data={channel}
-              channelId={video.id.videoId}
+              channelId={channelId}
               channelName={channel?.snippet.title}
               className="hidden sm:block mt-1 py-1.5"
             />

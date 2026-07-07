@@ -181,9 +181,8 @@ export default function VideoPlayer({ id }: Props) {
       <section>
         <iframe
           id="player"
-          width="100%"
-          src={`http://www.youtube.com/embed/${id}`}
-          className="aspect-video rounded-lg"
+          src={`https://www.youtube.com/embed/${id}`}
+          className="w-full aspect-video rounded-lg"
         ></iframe>
 
         <div className="my-4">

@@ -12,9 +12,10 @@ import type { CommentOrder } from "../api/youtube";
 
 type Props = {
   id: string;
+  className?: string;
 };
 
-export default function Comment({ id }: Props) {
+export default function Comment({ id, className }: Props) {
   const { youtube } = useYoutubeApi();
   const observerRef = useRef<HTMLDivElement>(null);
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -57,7 +58,7 @@ export default function Comment({ id }: Props) {
   if (isLoading) return <div>로딩중</div>;
 
   return (
-    <section>
+    <section className={className}>
       <div className="mb-6 flex items-center gap-5">
         <h2 className="text-xl font-semibold">
           댓글 {video?.statistics.commentCount}개
