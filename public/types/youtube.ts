@@ -24,6 +24,13 @@ export interface VideoId {
   kind: string;
   videoId: string;
 }
+export interface VideoItem {
+  kind: string;
+  etag: string;
+  id: string;
+  snippet: Snippet;
+  statistics: VideoStatistics;
+}
 
 export interface Snippet {
   publishedAt: string;
@@ -134,7 +141,7 @@ interface ChannelStatistics {
   videoCount: string;
 }
 
-interface VideoStatistics {
+export interface VideoStatistics {
   viewCount: string;
   likeCount: string;
   favoriteCount: string;

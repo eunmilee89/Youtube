@@ -4,6 +4,7 @@ import {
   type YoutubeListResponse,
   type ChannelItem,
   type SearchResponse,
+  type VideoItem,
 } from "./../../public/types/youtube";
 import axios, { type AxiosInstance } from "axios";
 
@@ -51,16 +52,20 @@ export default class Youtube {
       .then((res) => res.data.items[0]);
   }
 
-  async getMostPopularVideos() {
+  async getMostPopularVideos(pageToken?: string) {
     return this.httpClient
-      .get("videos", {
+      .get<YoutubeListResponse<VideoItem>>("videos", {
         params: {
           part: "snippet,statistics",
           chart: "mostPopular",
           maxResults: 25,
+          pageToken,
         },
       })
-      .then((res) => res.data.items);
+      .then((res) => ({
+        items: res.data.items,
+        nextPageToken: res.data.nextPageToken,
+      }));
   }
 
   async getVideoById(videoId: string): Promise<SearchResultItem> {
