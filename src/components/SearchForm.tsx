@@ -40,7 +40,7 @@ export default function SearchForm() {
       <FeedBackBtn
         icon={<LuMic />}
         onClick={() => {}}
-        style={"w-10 h-10"}
+        style={"w-10 h-10 bg-zinc-800"}
         iconSize="text-2xl"
       />
     </div>
