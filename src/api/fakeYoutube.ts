@@ -20,8 +20,11 @@ export default class FakeYoutube extends Youtube {
     return axios.get(`/data/keyword.json`).then((res) => res.data);
   }
 
-  async getMostPopularVideos() {
-    return axios.get(`/data/popular.json`).then((res) => res.data.items);
+  async getMostPopularVideos(_pageToken?: string) {
+    return axios.get(`/data/popular.json`).then((res) => ({
+      items: res.data.items,
+      nextPageToken: res.data.nextPageToken,
+    }));
   }
 
   async getChannelById(_channelId?: string): Promise<ChannelItem> {
