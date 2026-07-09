@@ -30,6 +30,7 @@ export default function VideoCard({ video, id, channelId, keyword }: Props) {
   const { data } = useQuery<SearchResultItem>({
     queryKey: ["video", id],
     queryFn: () => youtube.getVideoById(id),
+    enabled: !!id,
   });
 
   const handleVideoClick = () => {
