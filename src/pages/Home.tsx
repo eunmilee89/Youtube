@@ -1,3 +1,9 @@
+import PopularVideos from "../components/PopularVideos";
+
 export default function Home() {
-  return <div>Home</div>;
+  return (
+    <div>
+      <PopularVideos />
+    </div>
+  );
 }
