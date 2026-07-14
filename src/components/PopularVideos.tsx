@@ -1,9 +1,9 @@
 import { useInfiniteQuery } from "@tanstack/react-query";
 import { useYoutubeApi } from "../context/useYoutubeApi";
 import { useEffect, useRef } from "react";
-import VideoCard from "./VideoCard";
 import VideoCardSkeleton from "./VideoCardSkeleton";
 import { CgSpinner } from "react-icons/cg";
+import RelatedVideoCard from "./RelatedVideoCard.";
 
 export default function PopularVideos() {
   const { youtube } = useYoutubeApi();
@@ -52,7 +52,7 @@ export default function PopularVideos() {
       {error && <p>Something is wrong...</p>}
       {data && (
         <ul
-          className="flex flex-col px-8 w-full gap-4 max-w-7xl mx-auto
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 min-[1441px]:grid-cols-4 gap-4 px-8 w-full mx-auto
     "
         >
           {data.pages.flatMap(
@@ -68,11 +68,12 @@ export default function PopularVideos() {
             // }
             (page) =>
               page.items.map((video) => (
-                <VideoCard
+                <RelatedVideoCard
                   key={video.id}
                   id={video.id}
                   channelId={video.snippet.channelId}
                   video={video}
+                  variant="vertical"
                 />
               )),
           )}
