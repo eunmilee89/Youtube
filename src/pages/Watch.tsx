@@ -24,7 +24,7 @@ export default function Watch() {
         </div>
 
         <div className="order-2 lg:order-none lg:flex-1 lg:min-w-[320px] lg:shrink-[0.3]">
-          <SearchResult keyword={keyword ?? ""} />
+          <SearchResult keyword={keyword ?? ""} component="RelatedVideoCard" />
         </div>
 
         {/* col일 때만 따로 렌더 */}
