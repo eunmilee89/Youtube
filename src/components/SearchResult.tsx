@@ -6,12 +6,17 @@ import { useEffect, useRef } from "react";
 import { CgSpinner } from "react-icons/cg";
 import VideoCardSkeleton from "./VideoCardSkeleton";
 import { useMediaQuery } from "../hooks/useMediaQuery";
+import RelatedVideoCard from "./RelatedVideoCard.";
 
 interface Props {
   keyword: string;
+  component?: "default" | "RelatedVideoCard";
 }
 
-export default function SearchResult({ keyword }: Props) {
+export default function SearchResult({
+  keyword,
+  component = "default",
+}: Props) {
   const isRow = useMediaQuery("(min-width: 1024px)");
   const { youtube } = useYoutubeApi();
   const {
@@ -59,22 +64,12 @@ export default function SearchResult({ keyword }: Props) {
       {error && <p>Something is wrong...</p>}
       {data && (
         <ul
-          className="flex flex-col px-8 w-full gap-4 max-w-7xl mx-auto
-"
+          className={` ${component === "RelatedVideoCard" ? "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:flex lg:flex-col px-0 lg:px-8" : "flex flex-col px-8"} w-full gap-4 max-w-7xl mx-auto
+`}
         >
-          {data.pages.flatMap(
-            // 배열의 각 요소에 주어진 콜백 함수를 적용한 배열을 반환
-            // useInfiniteQuery가 관리하는 data 구조
-            // {
-            //   pages: [
-            //     { items: [...], nextPageToken: "CAUQAA" },  // 1페이지
-            //     { items: [...], nextPageToken: "CAUQBB" },  // 2페이지
-            //     { items: [...], nextPageToken: undefined },  // 3페이지
-            //   ],
-            //   pageParams: [undefined, "CAUQAA", "CAUQBB"]
-            // }
-            (page) =>
-              page.items.map((video) => (
+          {data.pages.flatMap((page) =>
+            page.items.map((video) =>
+              component === "default" ? (
                 <VideoCard
                   key={video.id.videoId}
                   id={video.id.videoId}
@@ -82,7 +77,18 @@ export default function SearchResult({ keyword }: Props) {
                   video={video}
                   keyword={keyword}
                 />
-              )),
+              ) : (
+                <RelatedVideoCard
+                  key={video.id.videoId}
+                  id={video.id.videoId}
+                  channelId={video.snippet.channelId}
+                  video={video}
+                  keyword={keyword}
+                  variant="horizontal"
+                  image={false}
+                />
+              ),
+            ),
           )}
         </ul>
       )}
