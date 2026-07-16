@@ -56,7 +56,7 @@ export default function RelatedVideoCard({
   return (
     <li
       key={id}
-      className={`w-full flex ${variant === "vertical" && "flex-col"} gap-4`}
+      className={`w-full flex flex-col ${variant === "horizontal" && "lg:flex-row"} gap-4`}
     >
       <div
         className={
