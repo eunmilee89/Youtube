@@ -91,10 +91,8 @@ export default function RelatedVideoCard({
 
             {channel && (
               <span
-                className={`${variant === "vertical" ? "cursor-pointer" : ""} text-xs text-zinc-400 hover:text-zinc-300`}
-                onClick={
-                  variant === "vertical" ? handleChannelClick : undefined
-                }
+                className="cursor-pointer text-xs text-zinc-400 hover:text-zinc-300"
+                onClick={handleChannelClick}
               >
                 {channel.snippet.title}
               </span>
