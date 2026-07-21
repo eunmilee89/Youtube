@@ -28,12 +28,12 @@ export default function Header() {
       <Link to="/" className="flex items-center shrink-0">
         <LuMenu />
         <img
-          src="/public/img/youtube logo 02.png"
+          src="/img/youtube logo 02.png"
           alt="youtube logo"
           className="w-34 hidden sm:block"
         />
         <img
-          src="/public/img/youtube logo 05.png"
+          src="/img/youtube logo 05.png"
           alt="youtube logo"
           className="w-24 sm:hidden pt-1 -ml-3"
         />
