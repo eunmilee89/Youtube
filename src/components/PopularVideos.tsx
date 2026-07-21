@@ -8,32 +8,31 @@ import RelatedVideoCard from "./RelatedVideoCard.";
 export default function PopularVideos() {
   const { youtube } = useYoutubeApi();
   const {
-    isLoading, // 로딩되고 있는지
-    data, // fetching해서 받아온 데이터
-    error, // 에러 여부
-    isFetchingNextPage, // nextPage로딩
-    hasNextPage, // 다음 페이지가 있는지
-    fetchNextPage, // 다음 페이지 가져오는 함수
+    isLoading,
+    data,
+    error,
+    isFetchingNextPage,
+    hasNextPage,
+    fetchNextPage,
   } = useInfiniteQuery({
     queryKey: ["videos"],
     queryFn: ({ pageParam }) =>
       youtube.getMostPopularVideos(pageParam as string | undefined),
 
-    initialPageParam: undefined as string | undefined, //required
-    getNextPageParam: (lastPage) => lastPage.nextPageToken ?? undefined, //required
+    initialPageParam: undefined as string | undefined,
+    getNextPageParam: (lastPage) => lastPage.nextPageToken ?? undefined,
   });
 
   const bottomRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const observer = new IntersectionObserver( // 사용자가 페이지 바닥에 도달했는지 감지
+    const observer = new IntersectionObserver(
       (entries) => {
-        // 인스턴스의 배열
         if (entries[0].isIntersecting && hasNextPage && !isFetchingNextPage) {
-          fetchNextPage(); // isIntersecting은 현재 관찰 대상이 현재 루트안에 포함되있는지
+          fetchNextPage();
         }
       },
-      { threshold: 0.1 }, // 타겟이 10% 보여졌을 때 옵저버가 실행됨, 기본값 0
+      { threshold: 0.1 },
     );
 
     if (bottomRef.current) observer.observe(bottomRef.current);
@@ -55,27 +54,16 @@ export default function PopularVideos() {
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 min-[1441px]:grid-cols-4 gap-4 px-8 w-full mx-auto
     "
         >
-          {data.pages.flatMap(
-            // 배열의 각 요소에 주어진 콜백 함수를 적용한 배열을 반환
-            // useInfiniteQuery가 관리하는 data 구조
-            // {
-            //   pages: [
-            //     { items: [...], nextPageToken: "CAUQAA" },  // 1페이지
-            //     { items: [...], nextPageToken: "CAUQBB" },  // 2페이지
-            //     { items: [...], nextPageToken: undefined },  // 3페이지
-            //   ],
-            //   pageParams: [undefined, "CAUQAA", "CAUQBB"]
-            // }
-            (page) =>
-              page.items.map((video) => (
-                <RelatedVideoCard
-                  key={video.id}
-                  id={video.id}
-                  channelId={video.snippet.channelId}
-                  video={video}
-                  variant="vertical"
-                />
-              )),
+          {data.pages.flatMap((page) =>
+            page.items.map((video) => (
+              <RelatedVideoCard
+                key={video.id}
+                id={video.id}
+                channelId={video.snippet.channelId}
+                video={video}
+                variant="vertical"
+              />
+            )),
           )}
         </ul>
       )}
