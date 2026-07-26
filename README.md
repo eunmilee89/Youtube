@@ -1,4 +1,4 @@
-# ▶️ YouTube Clone
+# ▶️ [YouTube Clone](https://youtube-clone-coding-project-2026.netlify.app/)
 
 > React와 TypeScript로 제작한 YouTube 클론 웹 애플리케이션
 
