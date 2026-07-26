@@ -28,32 +28,33 @@ API 쿼터 소진 상황에도 개발을 이어갈 수 있도록 실제 API와 �
 
 ## ✨ 기능 소개
 
+### 🏠 홈 화면 (Home)
+
+- 인기 영상(Popular Videos) 목록을 무한 스크롤로 탐색
+- `useInfiniteQuery` + `IntersectionObserver` 조합으로 스크롤 시 자동으로 다음 페이지 로드
+
+### 🔍 검색 (Header → Search)
+
+- Header의 검색 기능으로 키워드 입력 시 영상 검색
+- 검색 완료 화면에서 키워드 관련 영상 목록 표시
+
+### ▶️ 비디오 플레이어 (Watch)
+
+- 영상 시청 가능
+- 화면 옆에 관련 영상(Related Videos) 목록 표시
+- 댓글 및 답글(대댓글)까지 조회 가능
+- `ResizeObserver` 기반 반응형 오버플로우 드롭다운
+- "더보기" 클릭 시 영상 설명 확장/축소
+
+### 👤 채널 (Channel)
+
+- 영상/댓글 작성자의 채널 클릭 시 채널 화면으로 이동
+- ⚠️ 채널 화면 상세 구현은 아직 미완성
+
 ### 서비스 아키텍처 (Youtube / FakeYoutube)
 
 - 실제 API 호출 클래스(`Youtube`)와 목 데이터 클래스(`FakeYoutube`)를 분리 설계
 - API 쿼터 소진 시에도 `FakeYoutube`로 전환하여 개발 및 테스트 지속 가능
-
-### 무한 스크롤 피드
-
-- `useInfiniteQuery` + `IntersectionObserver` 조합으로 영상 피드 무한 스크롤 구현
-- 캐시 무효화(cache invalidation) 처리로 데이터 최신성 유지
-
-### 영상 플레이어
-
-- `ResizeObserver` 기반 반응형 오버플로우 드롭다운
-- YouTube API 댓글 스레드(comment threads) 연동
-- "더보기" 클릭 시 영상 설명 확장/축소
-
-### 재사용 컴포넌트
-
-- `VideoCard`, `VideoCardChannel`
-- `FeedBackBtn`, `DropdownMenuItem`
-- `CommentImageText`, `ChannelImageText`
-
-### 타입 안전성
-
-- 유니온 타입, 옵셔널 체이닝 적극 활용
-- `useQuery` / `useInfiniteQuery` 제네릭 타이핑 적용
 
 <br/>
 
