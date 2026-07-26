@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { YoutubeApiContext } from "./youtubeApiContext";
+import { YoutubeApiContext } from "../context/youtubeApiContext";
 
 export function useYoutubeApi() {
   const context = useContext(YoutubeApiContext);

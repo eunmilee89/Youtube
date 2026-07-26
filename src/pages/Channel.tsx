@@ -1,5 +1,5 @@
 import { useParams } from "react-router";
-import ChannelProfile from "../components/ChannelProfile";
+import ChannelProfile from "../components/channel/ChannelProfile.jsx";
 
 export default function Channel() {
   const { channelId } = useParams();

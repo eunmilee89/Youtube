@@ -1,14 +1,14 @@
 import { useInfiniteQuery, useQuery } from "@tanstack/react-query";
-import { useYoutubeApi } from "../context/useYoutubeApi";
+import { useYoutubeApi } from "../../hooks/useYoutubeApi";
 import { useEffect, useRef, useState } from "react";
 import { CgSpinner } from "react-icons/cg";
 import { LuAlignLeft, LuUserRound } from "react-icons/lu";
-import FeedBackBtn from "./FeedBackBtn";
-import DropdownMenuItem from "./DropdownMenuItem";
-import CommentImageText from "./CommentImageText";
+import FeedBackBtn from "../common/FeedBackBtn";
+import DropdownMenuItem from "../common/DropdownMenuItem";
+import CommentImageText from "../comment/CommentImageText";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import CommentInput from "./CommentInput";
-import type { CommentOrder } from "../api/youtube";
+import type { CommentOrder } from "../../api/youtube";
 
 type Props = {
   id: string;

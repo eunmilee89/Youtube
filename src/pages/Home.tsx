@@ -1,4 +1,4 @@
-import PopularVideos from "../components/PopularVideos";
+import PopularVideos from "../components/video/PopularVideos";
 
 export default function Home() {
   return (

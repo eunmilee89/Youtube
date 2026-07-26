@@ -1,7 +1,7 @@
 import { useLocation, useSearchParams } from "react-router";
-import VideoPlayer from "../components/VideoPlayer";
-import Comment from "../components/Comment";
-import SearchResult from "../components/SearchResult";
+import VideoPlayer from "../components/video/VideoPlayer";
+import Comment from "../components/comment/Comment";
+import SearchResult from "../components/video/SearchResult";
 
 export default function Watch() {
   const [searchParams] = useSearchParams();

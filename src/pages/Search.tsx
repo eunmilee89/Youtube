@@ -1,5 +1,5 @@
 import { useSearchParams } from "react-router";
-import SearchResult from "../components/SearchResult";
+import SearchResult from "../components/video/SearchResult";
 
 export default function Search() {
   const [searchParams] = useSearchParams();

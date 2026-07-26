@@ -1,11 +1,11 @@
 import { LuThumbsDown, LuThumbsUp } from "react-icons/lu";
-import type { CommentSnippet } from "../../public/types/youtube";
-import { formatAgo } from "../util/date";
-import FeedBackBtn from "./FeedBackBtn";
-import { formatCount } from "../util/formatCount";
+import type { CommentSnippet } from "../../../public/types/youtube";
+import { formatAgo } from "../../util/date";
+import FeedBackBtn from "../common/FeedBackBtn";
+import { formatCount } from "../../util/formatCount";
 import { useState } from "react";
 import { VscThumbsdownFilled, VscThumbsupFilled } from "react-icons/vsc";
-import CommentInput from "./CommentInput";
+import CommentInput from "../comment/CommentInput";
 
 type Props = {
   snippet: CommentSnippet;

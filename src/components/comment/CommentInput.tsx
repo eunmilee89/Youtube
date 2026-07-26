@@ -1,5 +1,5 @@
 import { LuUserRound } from "react-icons/lu";
-import FeedBackBtn from "./FeedBackBtn";
+import FeedBackBtn from "../common/FeedBackBtn";
 import { useState } from "react";
 type Props = {
   closeInput: () => void;

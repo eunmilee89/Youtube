@@ -1,9 +1,9 @@
 import { useInfiniteQuery } from "@tanstack/react-query";
-import { useYoutubeApi } from "../context/useYoutubeApi";
+import { useYoutubeApi } from "../../hooks/useYoutubeApi";
 import { useEffect, useRef } from "react";
 import VideoCardSkeleton from "./VideoCardSkeleton";
 import { CgSpinner } from "react-icons/cg";
-import RelatedVideoCard from "./RelatedVideoCard.";
+import RelatedVideoCard from "../common/RelatedVideoCard.";
 
 export default function PopularVideos() {
   const { youtube } = useYoutubeApi();

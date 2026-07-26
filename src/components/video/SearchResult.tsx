@@ -1,12 +1,12 @@
 import { useInfiniteQuery } from "@tanstack/react-query";
-import VideoCard from "./VideoCard";
-import { useYoutubeApi } from "../context/useYoutubeApi";
-import type { SearchResponse } from "../../public/types/youtube";
+import VideoCard from "../common/VideoCard";
+import { useYoutubeApi } from "../../hooks/useYoutubeApi";
+import type { SearchResponse } from "../../../public/types/youtube";
 import { useEffect, useRef } from "react";
 import { CgSpinner } from "react-icons/cg";
 import VideoCardSkeleton from "./VideoCardSkeleton";
-import { useMediaQuery } from "../hooks/useMediaQuery";
-import RelatedVideoCard from "./RelatedVideoCard.";
+import { useMediaQuery } from "../../hooks/useMediaQuery";
+import RelatedVideoCard from "../common/RelatedVideoCard.";
 
 interface Props {
   keyword: string;

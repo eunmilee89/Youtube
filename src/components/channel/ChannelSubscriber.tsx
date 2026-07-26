@@ -1,5 +1,5 @@
-import type { ChannelItem } from "../../public/types/youtube";
-import { formatCount } from "../util/formatCount";
+import type { ChannelItem } from "../../../public/types/youtube";
+import { formatCount } from "../../util/formatCount";
 type Props = {
   channel: ChannelItem;
   onClick: () => void;

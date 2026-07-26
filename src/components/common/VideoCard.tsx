@@ -2,14 +2,14 @@ import type {
   ChannelItem,
   SearchResultItem,
   VideoItem,
-} from "../../public/types/youtube";
-import { formatAgo } from "../util/date";
+} from "../../../public/types/youtube";
+import { formatAgo } from "../../util/date";
 import { useNavigate } from "react-router";
 import { useQuery } from "@tanstack/react-query";
-import { useYoutubeApi } from "../context/useYoutubeApi";
-import ChannelImageText from "./ChannelImageText";
-import { formatCount } from "../util/formatCount";
-import { decodeHtmlEntities } from "../util/decodeHtmlEntities";
+import { useYoutubeApi } from "../../hooks/useYoutubeApi";
+import ChannelImageText from "../channel/ChannelImageText";
+import { formatCount } from "../../util/formatCount";
+import { decodeHtmlEntities } from "../../util/decodeHtmlEntities";
 
 interface Props {
   video: SearchResultItem | VideoItem;
