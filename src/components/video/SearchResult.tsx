@@ -1,7 +1,12 @@
 import { useInfiniteQuery } from "@tanstack/react-query";
 import VideoCard from "../common/VideoCard";
 import { useYoutubeApi } from "../../hooks/useYoutubeApi";
-import type { SearchResponse } from "../../../public/types/youtube";
+import type {
+  SearchResponse,
+  VideoResponse,
+  SearchResultItem,
+  VideoItem,
+} from "../../../public/types/youtube";
 import { useEffect, useRef } from "react";
 import { CgSpinner } from "react-icons/cg";
 import VideoCardSkeleton from "./VideoCardSkeleton";
@@ -9,8 +14,15 @@ import { useMediaQuery } from "../../hooks/useMediaQuery";
 import RelatedVideoCard from "../common/RelatedVideoCard.";
 
 interface Props {
-  keyword: string;
+  keyword?: string;
   component?: "default" | "RelatedVideoCard";
+}
+
+// id가 객체면 SearchResultItem, 문자열이면 VideoItem
+function isSearchResultItem(
+  item: SearchResultItem | VideoItem,
+): item is SearchResultItem {
+  return typeof item.id === "object";
 }
 
 export default function SearchResult({
@@ -20,32 +32,33 @@ export default function SearchResult({
   const isRow = useMediaQuery("(min-width: 1024px)");
   const { youtube } = useYoutubeApi();
   const {
-    isLoading, // 로딩되고 있는지
-    data, // fetching해서 받아온 데이터
-    error, // 에러 여부
-    isFetchingNextPage, // nextPage로딩
-    hasNextPage, // 다음 페이지가 있는지
-    fetchNextPage, // 다음 페이지 가져오는 함수
-  } = useInfiniteQuery<SearchResponse>({
-    queryKey: ["videos", keyword],
+    isLoading,
+    data,
+    error,
+    isFetchingNextPage,
+    hasNextPage,
+    fetchNextPage,
+  } = useInfiniteQuery<SearchResponse | VideoResponse>({
+    queryKey: keyword ? ["videos", keyword] : ["popularVideos"],
     queryFn: ({ pageParam }) =>
-      youtube.searchByKeyword(keyword, pageParam as string | undefined),
-    initialPageParam: undefined, //required
-    getNextPageParam: (lastPage) => lastPage.nextPageToken ?? undefined, //required
+      keyword
+        ? youtube.searchByKeyword(keyword, pageParam as string | undefined)
+        : youtube.getMostPopularVideos(pageParam as string | undefined),
+    initialPageParam: undefined,
+    getNextPageParam: (lastPage) => lastPage.nextPageToken ?? undefined,
   });
 
   const bottomRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (!isRow) return;
-    const observer = new IntersectionObserver( // 사용자가 페이지 바닥에 도달했는지 감지
+    const observer = new IntersectionObserver(
       (entries) => {
-        // 인스턴스의 배열
         if (entries[0].isIntersecting && hasNextPage && !isFetchingNextPage) {
-          fetchNextPage(); // isIntersecting은 현재 관찰 대상이 현재 루트안에 포함되있는지
+          fetchNextPage();
         }
       },
-      { threshold: 0.1 }, // 타겟이 10% 보여졌을 때 옵저버가 실행됨, 기본값 0
+      { threshold: 0.1 },
     );
 
     if (bottomRef.current) observer.observe(bottomRef.current);
@@ -68,27 +81,31 @@ export default function SearchResult({
 `}
         >
           {data.pages.flatMap((page) =>
-            page.items.map((video) =>
-              component === "default" ? (
+            page.items.map((video) => {
+              const videoId = isSearchResultItem(video)
+                ? video.id.videoId
+                : video.id;
+
+              return component === "default" ? (
                 <VideoCard
-                  key={video.id.videoId}
-                  id={video.id.videoId}
+                  key={videoId}
+                  id={videoId}
                   channelId={video.snippet.channelId}
                   video={video}
                   keyword={keyword}
                 />
               ) : (
                 <RelatedVideoCard
-                  key={video.id.videoId}
-                  id={video.id.videoId}
+                  key={videoId}
+                  id={videoId}
                   channelId={video.snippet.channelId}
                   video={video}
                   keyword={keyword}
                   variant="horizontal"
                   image={false}
                 />
-              ),
-            ),
+              );
+            }),
           )}
         </ul>
       )}

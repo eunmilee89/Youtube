@@ -12,6 +12,11 @@ export type SearchResponse = {
   nextPageToken?: string;
 };
 
+export type VideoResponse = {
+  items: VideoItem[];
+  nextPageToken?: string;
+};
+
 export interface SearchResultItem {
   kind: string;
   etag: string;

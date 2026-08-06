@@ -29,7 +29,6 @@ export default function RelatedVideoCard({
   image = true,
 }: Props) {
   const navigate = useNavigate();
-
   const { youtube } = useYoutubeApi();
 
   const { data: channel } = useQuery<ChannelItem>({
