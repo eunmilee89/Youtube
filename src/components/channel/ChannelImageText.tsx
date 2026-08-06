@@ -1,6 +1,6 @@
 import { LuUserRound } from "react-icons/lu";
 import { useNavigate } from "react-router";
-import type { ChannelItem } from "../../public/types/youtube";
+import type { ChannelItem } from "../../../public/types/youtube";
 
 interface Props {
   data: ChannelItem | undefined;
