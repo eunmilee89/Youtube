@@ -7,7 +7,7 @@ interface Props {
 
 export default function ChannelProfile({ id }: Props) {
   return (
-    <div className="flex min-h-[70vh] flex-col items-center justify-center gap-6 px-4 text-center">
+    <div className="flex min-h-[calc(100vh-64px)] flex-col items-center justify-center gap-6 px-4 text-center">
       <div className="flex h-20 w-20 items-center justify-center rounded-full bg-zinc-800">
         <LuConstruction className="h-10 w-10 text-zinc-300" />
       </div>
